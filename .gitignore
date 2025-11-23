@@ -1,0 +1,313 @@
+# Polylinguist Course - Git Ignore File
+# Excludes compiled binaries, build artifacts, and temporary files
+
+# ====================
+# Python
+# ====================
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.venv
+venv/
+ENV/
+env/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ====================
+# JavaScript/Node.js
+# ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+package-lock.json
+yarn.lock
+.pnp
+.pnp.js
+*.tsbuildinfo
+
+# ====================
+# Java
+# ====================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+target/
+.gradle/
+build/
+!gradle-wrapper.jar
+.classpath
+.project
+.settings/
+
+# ====================
+# C/C++
+# ====================
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*_c
+*_cpp
+a.out
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.gch
+*.pch
+
+# ====================
+# Rust
+# ====================
+**/target/
+**/*.rs.bk
+*.pdb
+*_rust
+Cargo.lock  # For applications; remove this line for libraries
+
+# ====================
+# Haskell
+# ====================
+*.hi
+*.o
+*.chi
+*.chs.h
+.virtualenv
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.config
+cabal.project.local
+.HTF/
+.ghc.environment.*
+dist/
+dist-*/
+.stack-work/
+stack.yaml.lock
+*.hp
+*.prof
+*.aux
+*.eventlog
+
+# ====================
+# Ruby
+# ====================
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.bundle/
+vendor/bundle
+lib/bundler/man/
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+# ====================
+# Racket
+# ====================
+compiled/
+*.zo
+*.dep
+
+# ====================
+# Prolog
+# ====================
+*.qlf
+*.qly
+
+# ====================
+# IDEs and Editors
+# ====================
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+[._]*.un~
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+Package Control.last-run
+
+# ====================
+# Operating Systems
+# ====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ====================
+# General
+# ====================
+*.log
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+.temp/
+temp/
+tmp/
+
+# Compiled documentation
+*.pdf
+*.dvi
+*.ps
+
+# Archives (uncomment if you want to ignore)
+# *.zip
+# *.tar
+# *.tar.gz
+# *.rar
+# *.7z
+
+# ====================
+# Project Specific
+# ====================
+
+# Exclude any local test files or scratch work
+scratch/
+notes/
+TODO.local
+
+# If you have solution keys that shouldn't be public
+# solutions/
+# *_solution.*
+# *_key.*
