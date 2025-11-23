@@ -1,49 +1,62 @@
-# Language Progression Across Three Quarters
+# Language Progression: Depth Over Breadth
+
+## Philosophy
+
+This curriculum uses the **same 10 languages** across all three quarters, building true expertise rather than superficial knowledge of many languages. By Quarter 3, students have 30 weeks of experience in each language, achieving fluency in multiple paradigms.
 
 ## Visual Overview
 
 ```
 Quarter 1: FOUNDATIONS (10 languages)
-═══════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════════════
+INTRODUCTION - "I can write simple programs"
 
 Procedural/Systems     OOP                Functional           Logic/Other
 ──────────────────     ───                ──────────           ───────────
-C                      Java               Haskell              Prolog
-Python                 Ruby               OCaml
-                       Python             Racket
+C ★                    Java ★★            Haskell ★★★          Prolog ★★
+Python ★               Ruby ★★            OCaml ★★
+                                          Racket ★★
 
 Multi-Paradigm
 ──────────────
-JavaScript
-Rust
+JavaScript ★
+Rust ★★★
+
+★ = Beginner-friendly    ★★ = Moderate learning curve    ★★★ = Challenging
 
 
-Quarter 2: PARADIGMS (+4 languages = 14 total)
-═══════════════════════════════════════════════════════════════
+Quarter 2: PARADIGM MASTERY (same 10 languages)
+══════════════════════════════════════════════════════════════════════
+DEEPENING - "I write idiomatic code in each language"
 
-Quarter 1 languages PLUS:
+Advanced Features      Advanced Patterns  Advanced FP          Advanced Logic
+─────────────────      ────────────────   ───────────          ──────────────
+C: pthreads, atomics   Java: patterns     Haskell: monads      Prolog: CLP
+Python: metaclasses    Ruby: metaprog     OCaml: modules
+Rust: async, traits                       Racket: macros
 
-Modern Typed           Modern Functional  Concurrent/Systems
-────────────           ─────────────────  ──────────────────
-TypeScript             Clojure            Go
-                       Elixir
+Multi-Paradigm Deep Dive
+────────────────────────
+JavaScript: async/await, functional patterns
+Rust: zero-cost abstractions, advanced types
 
 
-Quarter 3: SYSTEMS (+4 languages = 18 total)
-═══════════════════════════════════════════════════════════════
+Quarter 3: MASTERY (same 10 languages)
+══════════════════════════════════════════════════════════════════════
+EXPERTISE - "I build production systems and understand language implementation"
 
-Quarter 2 languages PLUS:
-
-Low-Level              Modern JVM         Advanced Systems
-─────────              ──────────         ────────────────
-Assembly (x86-64)      Scala              Zig
-                       Kotlin
+Implementation         FFI/Systems        Compiler Building    Integration
+──────────────         ───────────        ─────────────────    ───────────
+C: VM, FFI core        C ↔ Python         OCaml: parser        All languages
+Rust: safe FFI         C ↔ Ruby           Haskell: types       integrated in
+Python: tooling        C ↔ Haskell        Python: tooling      production
+                       Rust ↔ All                              systems
 ```
 
-## Language Introduction Timeline
+## Language Depth Timeline
 
-### Quarter 1, Week 1: The Core 10
-All introduced simultaneously through "Hello, World!"
+### Quarter 1, Week 1: Introduction to All 10
+All 10 languages introduced simultaneously through "Hello, World!"
 - **C** - The systems programming classic
 - **Python** - Readable, multi-paradigm
 - **Java** - Enterprise OOP standard
@@ -55,35 +68,33 @@ All introduced simultaneously through "Hello, World!"
 - **Prolog** - Logic programming
 - **Rust** - Modern systems safety
 
-### Quarter 2, Week 1: TypeScript
-Introduced alongside JavaScript to show gradual typing
+### Quarter 1: Basic Proficiency
+By end of Q1, students can:
+- Write simple programs in all 10 languages
+- Understand paradigm differences
+- Use documentation effectively
+- Debug basic errors
 
-### Quarter 2, Week 1: Clojure
-Introduced in functional programming deep dive
+### Quarter 2: Idiomatic Fluency
+By end of Q2, students can:
+- Write idiomatic code in each language
+- Leverage language-specific features (monads, metaprogramming, traits)
+- Choose appropriate language for problem domain
+- Integrate multiple languages in one system
 
-### Quarter 2, Week 6: Elixir
-Introduced with error handling and supervision
+### Quarter 3: Expert-Level Mastery
+By end of Q3, students can:
+- Implement language features (parsers, type systems, VMs)
+- Optimize for performance in each language
+- Build production-quality multi-language systems
+- Teach others and contribute to open source
 
-### Quarter 2, Week 9: Go
-Introduced with concurrency primitives (goroutines)
-
-### Quarter 3, Week 1: Assembly (x86-64)
-Introduced to understand low-level execution
-
-### Quarter 3, Week 1: Zig
-Introduced as modern alternative to C
-
-### Quarter 3, Week 5: Scala
-Introduced for advanced type system study
-
-### Quarter 3, Week 7: Kotlin
-Introduced for coroutines and modern JVM features
+**30 weeks with same 10 languages = True polyglot expertise**
 
 ## Language Feature Matrix
 
 | Language   | Typing | Paradigm(s) | GC | Manual Mem | Pattern Match | Macros | Concurrency Model |
 |------------|--------|-------------|----|-----------:|:-------------:|:------:|-------------------|
-| **Quarter 1** |
 | C          | Static | Procedural  | ✗  | ✓ | ✗ | ✗ | Threads |
 | Python     | Dynamic| Multi       | ✓  | ✗ | ✓ | ✗ | Threads/Async |
 | Java       | Static | OOP         | ✓  | ✗ | ✓ | ✗ | Threads |
@@ -94,16 +105,8 @@ Introduced for coroutines and modern JVM features
 | Racket     | Dynamic| Functional  | ✓  | ✗ | ✓ | ✓ | Threads |
 | Prolog     | Dynamic| Logic       | ✓  | ✗ | ✓ | ✗ | Single-threaded |
 | Rust       | Static | Multi       | ✗  | ✓ | ✓ | ✓ | Async/Threads |
-| **Quarter 2** |
-| TypeScript | Static | Multi       | ✓  | ✗ | ✗ | ✗ | Event Loop/Async |
-| Clojure    | Dynamic| Functional  | ✓  | ✗ | ✓ | ✓ | STM/Agents |
-| Elixir     | Dynamic| Functional  | ✓  | ✗ | ✓ | ✓ | Actor model |
-| Go         | Static | Procedural  | ✓  | ✗ | ✗ | ✗ | Goroutines/CSP |
-| **Quarter 3** |
-| x86-64 ASM | None   | Imperative  | ✗  | ✓ | ✗ | ✗ | Manual |
-| Zig        | Static | Procedural  | ✗  | ✓ | ✗ | ✗ | Async |
-| Scala      | Static | Multi       | ✓  | ✗ | ✓ | ✓ | Actors/Futures |
-| Kotlin     | Static | Multi       | ✓  | ✗ | ✓ | ✗ | Coroutines |
+
+**Note:** These 10 languages are used throughout all three quarters, with increasing depth and sophistication.
 
 ## Why These Languages?
 
@@ -354,24 +357,48 @@ Skills gained that transfer across languages:
 
 ## Language Selection Rationale
 
-### Why Not Include?
+### Why These 10 Languages?
 
-**C++:** Too complex for intro, doesn't represent distinct paradigm
-**PHP:** Good for web, but covered by other languages
-**Swift:** Excellent but Apple-specific
-**Perl:** Historical importance, but declining
-**Lua:** Great for embedding, but niche
-**Erlang:** Covered by Elixir (which is more modern)
+**Complete Paradigm Coverage:**
+- Procedural: C
+- OOP: Java, Ruby, Python
+- Functional: Haskell, OCaml, Racket
+- Logic: Prolog
+- Multi-paradigm: Python, JavaScript, Rust
 
-### Future Possibilities
+**Practical Relevance:**
+All 10 languages have significant industry use or academic importance
 
-If extended to 4 quarters:
-- **C++** - Template metaprogramming
-- **Swift** - Modern mobile development
-- **Nim** - Python-like syntax, C-like performance
-- **Julia** - Scientific computing
-- **F#** - .NET functional programming
-- **Idris/Agda** - Dependent types
+**Depth Over Breadth:**
+10 languages is the sweet spot - enough diversity to see all paradigms, few enough to achieve real expertise
+
+### Why Not Include Other Languages?
+
+**Languages Deliberately Excluded:**
+- **C++:** Too complex, doesn't add paradigmatic diversity beyond C and Rust
+- **Go:** Simple, but doesn't add paradigms not covered by C and others
+- **TypeScript:** Interesting, but essentially JavaScript with types
+- **Scala/Kotlin:** Excellent languages, but Java + Haskell cover the paradigms
+- **Clojure:** Great Lisp, but Racket covers Lisp paradigm
+- **Elixir:** Beautiful language, but doesn't add beyond functional + Prolog concepts
+- **Assembly:** Valuable for Q3, could be added as Week 1-2 topic
+- **Swift/Dart/Others:** Platform-specific or don't add paradigmatic diversity
+
+**The 10-Language Choice:**
+Represents a curated selection providing maximum paradigmatic diversity with minimum overlap. Each language offers unique insights not available in the others.
+
+### Could This Be Extended?
+
+**To 4 Quarters:**
+- Keep same 10 languages for first 3 quarters (as designed)
+- Quarter 4: Specialized topics chosen by students
+  - Some might add Elixir (distributed systems)
+  - Some might add Assembly (low-level)
+  - Some might add domain-specific languages (Julia, R)
+- Still maintaining depth in original 10
+
+**Alternative: Language Electives**
+After Quarter 2, students could choose 1-2 additional languages based on interests while maintaining core 10.
 
 ## Difficulty Progression
 
