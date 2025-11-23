@@ -14,7 +14,7 @@ Traditional programming courses teach through a single language, but this course
 
 ## Languages & Paradigms Covered
 
-This course includes 10 programming languages representing different paradigms:
+This course includes 9 programming languages representing different paradigms:
 
 ### Procedural & Systems
 - **C** - Low-level systems programming, explicit memory management
@@ -26,9 +26,8 @@ This course includes 10 programming languages representing different paradigms:
 - **Python** - Multi-paradigm flexibility
 
 ### Functional
-- **Haskell** - Pure functional, advanced type system
-- **OCaml** - Functional with pragmatism, excellent inference
-- **Racket** - Lisp/Scheme dialect, language experimentation
+- **Haskell** - Pure functional, advanced type system, lazy evaluation
+- **Racket** - Lisp/Scheme dialect, macros, language-oriented programming
 
 ### Logic
 - **Prolog** - Declarative logic programming, automated reasoning

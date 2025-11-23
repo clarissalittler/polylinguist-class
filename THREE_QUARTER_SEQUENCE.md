@@ -6,20 +6,20 @@ A comprehensive three-quarter curriculum teaching computer science through multi
 
 ### Quarter 1: Foundations - Introduction to Programming
 **Focus:** Core programming concepts, basic paradigms, computational thinking
-**Languages:** Python, JavaScript, C, Java, Ruby, Haskell, OCaml, Racket, Prolog, Rust (10 languages)
+**Languages:** Python, JavaScript, C, Java, Ruby, Haskell, Racket, Prolog, Rust (9 languages)
 **Level:** Beginner (no prerequisites)
 
 ### Quarter 2: Intermediate - Paradigm Mastery and Advanced Concepts
 **Focus:** Deep paradigm exploration, advanced features, design patterns, concurrency
-**Languages:** Same 10 languages - developing depth and fluency
+**Languages:** Same 9 languages - developing depth and fluency
 **Level:** Intermediate (Quarter 1 or equivalent)
 
 ### Quarter 3: Advanced - Language Implementation and Real Systems
 **Focus:** Compiler/interpreter construction, performance, multi-language integration, mastery
-**Languages:** Same 10 languages - achieving expertise and building substantial systems
+**Languages:** Same 9 languages - achieving expertise and building substantial systems
 **Level:** Advanced (Quarter 2 or equivalent)
 
-**Philosophy:** Rather than adding breadth with new languages, this sequence builds deep expertise in 10 carefully-chosen languages representing all major paradigms. By Quarter 3, students are truly fluent in multiple paradigms and can leverage each language's unique strengths.
+**Philosophy:** Rather than adding breadth with new languages, this sequence builds deep expertise in 9 carefully-chosen languages representing all major paradigms. By Quarter 3, students are truly fluent in multiple paradigms and can leverage each language's unique strengths. With 9 languages instead of 10, students have more time to achieve true mastery in each.
 
 ---
 
@@ -27,7 +27,7 @@ A comprehensive three-quarter curriculum teaching computer science through multi
 
 ## Course Description
 
-Learn programming fundamentals through 10 different languages representing procedural, object-oriented, functional, and logic paradigms. Understand how the same concepts manifest differently across paradigms.
+Learn programming fundamentals through 9 different languages representing procedural, object-oriented, functional, and logic paradigms. Understand how the same concepts manifest differently across paradigms.
 
 ## Learning Objectives
 
@@ -213,10 +213,10 @@ By the end of Quarter 1, students will:
 
 Deep dive into advanced features of each language and paradigm. Students develop fluency and idiomatic proficiency in the 10 languages from Quarter 1. Focus on paradigm-specific strengths, advanced patterns, and building non-trivial systems.
 
-## Languages (Same 10 from Quarter 1)
+## Languages (Same 9 from Quarter 1)
 
 Now students go deeper into each language's unique strengths:
-- **Haskell, OCaml, Racket:** Advanced functional programming, type theory
+- **Haskell, Racket:** Advanced functional programming, type theory, macros
 - **Java, Ruby, Python:** Advanced OOP, design patterns, metaprogramming
 - **C, Rust:** Systems programming, memory management, performance
 - **JavaScript:** Async patterns, event-driven architecture, functional JS
@@ -225,7 +225,7 @@ Now students go deeper into each language's unique strengths:
 ## Learning Objectives
 
 By the end of Quarter 2, students will:
-- Write idiomatic code in each of the 10 languages
+- Write idiomatic code in each of the 9 languages
 - Master advanced functional programming (functors, monads, lazy evaluation)
 - Design and implement complex data structures in multiple paradigms
 - Apply design patterns appropriately, understanding paradigm-specific alternatives
@@ -238,48 +238,51 @@ By the end of Quarter 2, students will:
 
 ### Week 1: Advanced Functional Programming I - Functors and Applicatives
 **Concepts:** Functors, applicative functors, function composition at scale
-**Languages:** Haskell, OCaml, Racket (comparison)
+**Languages:** Haskell (primary), Racket (comparison), Rust (practical application)
 **Topics:**
 - Functor type class in Haskell
-- Functors in OCaml (module system)
-- Mapping over contexts in all functional languages
+- Mapping over contexts (Option, List, etc.)
 - Applicative functors and validation
 - Composing effectful computations
-- Comparing typed (Haskell, OCaml) vs untyped (Racket) approaches
+- Racket's approach without type classes
+- Rust's Iterator trait as practical functor application
+- Comparing typed (Haskell) vs untyped (Racket) approaches
 
-**Lab:** Build a validation library in Haskell and OCaml, compare approaches
+**Lab:** Build a validation library in Haskell, compare to approach in Racket and Rust
 
 ---
 
 ### Week 2: Advanced Functional Programming II - Monads
 **Concepts:** Monads, do-notation, monadic composition, error handling
-**Languages:** Haskell, OCaml, Rust (Result/Option comparison)
+**Languages:** Haskell (primary), Rust (Result/Option), Python (comparison)
 **Topics:**
 - Understanding the Monad abstraction in Haskell
 - Common monads: Maybe, Either, IO, List, State
 - Do-notation in Haskell
-- Monads in OCaml (without special syntax)
 - Rust's Result and Option as restricted monads
+- Python's approach to sequencing operations (context managers, generators)
+- Why monads matter: composing computations with effects
 - Comparing approaches to error handling across paradigms
 
-**Lab:** Implement a monadic parser combinator library in Haskell and OCaml
+**Lab:** Implement a monadic parser combinator library in Haskell, compare error handling approach to Rust
 
 ---
 
 ### Week 3: Lazy Evaluation and Infinite Data Structures
 **Concepts:** Lazy evaluation, thunks, infinite sequences, generators, memoization
-**Languages:** Haskell (lazy by default), Python (generators), JavaScript (generators), OCaml (strict)
+**Languages:** Haskell (lazy by default), Python (generators), JavaScript (generators), Rust (iterators)
 **Topics:**
 - Strict vs lazy evaluation
 - Haskell's lazy-by-default model
 - Infinite lists and streams in Haskell
 - Python generators and yield
 - JavaScript generators and iterators
-- OCaml's strict evaluation and when to use lazy
+- Rust's lazy iterators (zero-cost abstractions)
 - Memoization and dynamic programming
 - Space leaks and when to force evaluation
+- Comparing lazy evaluation strategies
 
-**Lab:** Solve computational problems using lazy evaluation (Haskell) and generators (Python, JavaScript)
+**Lab:** Solve computational problems using lazy evaluation (Haskell) and generators (Python, JavaScript, Rust)
 
 ---
 
@@ -300,29 +303,31 @@ By the end of Quarter 2, students will:
 
 ### Week 5: Type Systems Deep Dive
 **Concepts:** Advanced types, GADTs, phantom types, type-level programming
-**Languages:** Haskell (advanced types), OCaml (GADTs), Rust (traits), Java (generics)
+**Languages:** Haskell (advanced types), Rust (traits), Java (generics), Python (gradual typing)
 **Topics:**
-- Generalized algebraic data types (GADTs) in Haskell and OCaml
+- Generalized algebraic data types (GADTs) in Haskell
 - Type families and associated types in Haskell
 - Phantom types for type-safety
 - Rust's trait system vs Haskell's type classes
 - Java's generics and type erasure (limitations)
+- Python's gradual typing (type hints) as middle ground
 - Comparing expressiveness across type systems
 
-**Lab:** Type-safe embedded DSL using advanced types in Haskell, compare to runtime checks in Python
+**Lab:** Type-safe embedded DSL using advanced types in Haskell, compare to Rust's type safety and Python's runtime checks
 
 ---
 
 ### Week 6: Error Handling Idioms Across All Languages
 **Concepts:** Exceptions, Result types, Maybe/Option, error monads, error codes
-**Languages:** All 10 languages, comparing approaches
+**Languages:** All 9 languages, comparing approaches
 **Topics:**
 - Exception-based error handling (Java, Python, Ruby, JavaScript)
 - C's error codes and errno
-- Result and Option types (Rust, Haskell, OCaml)
+- Result and Option types (Rust, Haskell)
 - Railway-oriented programming in functional languages
 - JavaScript Promises and error handling
 - Prolog's failure and backtracking as error handling
+- Racket's conditions and restarts
 - Comparing safety, ergonomics, and performance
 
 **Lab:** Robust file processing system with comprehensive error handling in 3 languages (one from each paradigm)
@@ -415,12 +420,12 @@ Include architectural documentation explaining language and paradigm choices.
 
 Advanced topics in programming language implementation, compiler construction, performance optimization, and building substantial multi-language systems. Students achieve mastery of the 10 languages and understand how languages are implemented. Focus on real-world complexity and production concerns.
 
-## Languages (Same 10 - Now Achieving Mastery)
+## Languages (Same 9 - Now Achieving Mastery)
 
-Students now leverage deep expertise in all 10 languages:
-- **Haskell, OCaml:** Implement compilers and type systems
+Students now leverage deep expertise in all 9 languages:
+- **Haskell:** Implement type systems, advanced functional design, compiler components
+- **Racket:** Language-oriented programming, creating new languages, macro systems
 - **C, Rust:** Systems programming, performance optimization, FFI
-- **Racket:** Language-oriented programming, creating new languages
 - **Python, Ruby:** Scripting, glue code, tooling
 - **Java:** Enterprise systems, JVM ecosystem
 - **JavaScript:** Web interfaces, Node.js tooling
@@ -429,7 +434,7 @@ Students now leverage deep expertise in all 10 languages:
 ## Learning Objectives
 
 By the end of Quarter 3, students will:
-- Achieve fluency and expertise in all 10 languages
+- Achieve fluency and expertise in all 9 languages
 - Implement a complete programming language (lexer, parser, interpreter/compiler)
 - Understand low-level memory management and optimize for performance
 - Build systems integrating multiple languages via FFI
@@ -476,52 +481,54 @@ By the end of Quarter 3, students will:
 
 ### Week 3: Language Implementation I - Lexing and Parsing
 **Concepts:** Lexical analysis, parsing, grammars, ASTs, parser generators
-**Languages:** OCaml (primary), Haskell (parser combinators), Python (PLY), Racket (syntax objects)
+**Languages:** Haskell (parser combinators), Python (PLY), Racket (syntax objects), Rust (nom)
 **Topics:**
 - Regular expressions and lexing
 - Context-free grammars
-- Parser combinators in Haskell (Parsec)
-- Recursive descent parsing
-- Using parser generators (OCamllex/Menhir, Python PLY)
+- Parser combinators in Haskell (Parsec/Megaparsec)
+- Recursive descent parsing by hand
+- Using parser generators (Python PLY)
+- Parser combinators in Rust (nom)
 - Building and manipulating ASTs
 - Error recovery and reporting
-- Racket's approach to syntax
+- Racket's syntax objects and reader macros
 
-**Lab:** Build lexer and parser for a small language in OCaml and Haskell, compare approaches
+**Lab:** Build lexer and parser for a small language in Haskell (combinators) and Python (generator), compare approaches
 
 ---
 
 ### Week 4: Language Implementation II - Interpretation and Compilation
 **Concepts:** Tree-walking interpreters, environments, closures, bytecode VMs
-**Languages:** OCaml/Haskell (interpreter), Python (studying CPython), C (VM), Rust (safe implementation)
+**Languages:** Haskell (tree-walking interpreter), Python (studying CPython), C (VM), Rust (safe implementation)
 **Topics:**
-- Tree-walking interpretation
+- Tree-walking interpretation in Haskell
 - Environment and closure implementation
 - Implementing functions and scope
 - Bytecode design (study Python bytecode)
 - Stack-based virtual machines
-- Implementing VM in C
+- Implementing VM in C for performance
 - Garbage collection for your language
-- Rust for safe language implementation
+- Rust for safe language implementation (memory safety without GC)
 
-**Lab:** Extend interpreter from Week 3 with functions, closures, and scope. Optionally implement bytecode compiler and VM
+**Lab:** Extend interpreter from Week 3 with functions, closures, and scope in Haskell. Optionally implement bytecode compiler and VM in C or Rust
 
 ---
 
 ### Week 5: Type Systems and Type Inference Implementation
 **Concepts:** Hindley-Milner, unification, type checking, polymorphism
-**Languages:** OCaml (implementing type system), Haskell (reference), Python (type hints)
+**Languages:** Haskell (implementing type system and reference), Rust (type system study), Python (type hints)
 **Topics:**
-- Algorithm W (Hindley-Milner inference)
+- Algorithm W (Hindley-Milner inference) implemented in Haskell
 - Unification algorithm implementation
 - Type environments and substitution
 - Let-polymorphism
 - Type inference vs type checking
 - Implementing generics/parametric polymorphism
+- Studying Rust's type system design
 - Python's gradual typing as comparison
 - Error messages for type errors
 
-**Lab:** Add Hindley-Milner type inference to interpreter from previous weeks
+**Lab:** Implement Hindley-Milner type inference in Haskell for your language from previous weeks
 
 ---
 
@@ -596,10 +603,10 @@ By the end of Quarter 3, students will:
 
 ### Week 10: Production Systems and Real-World Integration
 **Concepts:** Build systems, testing, deployment, debugging across languages
-**Languages:** All 10 languages - using appropriate tool for each component
+**Languages:** All 9 languages - using appropriate tool for each component
 **Topics:**
 - Package managers across all languages
-- Build systems (Make, Cargo, npm, Maven, cabal, opam, etc.)
+- Build systems (Make, Cargo, npm, Maven, cabal, raco, etc.)
 - Testing frameworks in all languages
 - Property-based testing (QuickCheck in Haskell, Hypothesis in Python)
 - Documentation generation per language
@@ -613,14 +620,14 @@ By the end of Quarter 3, students will:
 **Final Project:** Substantial software system integrating 4+ languages from different paradigms, demonstrating mastery of all three quarters. Project must include:
 - Performance-critical components (C or Rust)
 - High-level coordination/scripting (Python or Ruby)
-- Type-safe core logic (Haskell or OCaml)
+- Type-safe core logic (Haskell)
 - UI or concurrent components (JavaScript, Java, or Rust)
 - Comprehensive testing in multiple languages
 - Build system integrating all components
 - Complete documentation
 
 Example Projects:
-- **Compiler/Interpreter:** OCaml/Haskell parser & type checker, C runtime, Python tooling, JavaScript REPL
+- **Compiler/Interpreter:** Haskell parser & type checker, C runtime, Python tooling, JavaScript REPL
 - **Web Application:** Rust HTTP server, Haskell business logic, JavaScript frontend, Python deployment scripts
 - **Data Processing Pipeline:** Haskell transformations, C performance kernels, Python orchestration, Prolog rules engine
 - **Distributed System:** Java/Rust services, Python glue code, JavaScript dashboard, Haskell core algorithms
@@ -643,27 +650,27 @@ Students present their projects, explaining language and paradigm choices.
 
 ## Language Progression (Depth Over Breadth)
 
-### Quarter 1: Introduction to 10 Languages
+### Quarter 1: Introduction to 9 Languages
 Core languages representing all major paradigms - baseline understanding of concepts in each
 
 **Focus:** "I can write simple programs and understand basic concepts in each language"
 
-### Quarter 2: Deepening Understanding in Same 10 Languages
+### Quarter 2: Deepening Understanding in Same 9 Languages
 Advanced features and idiomatic usage - developing fluency
 
 **Focus:** "I write idiomatic code and understand each language's unique strengths"
 
-### Quarter 3: Mastery of Same 10 Languages
+### Quarter 3: Mastery of Same 9 Languages
 Expert-level understanding - building real systems and implementing languages
 
 **Focus:** "I'm fluent in multiple paradigms and can build production systems"
 
-**Key Advantage:** By Quarter 3, students have 30 weeks of experience with the same 10 languages, achieving true depth rather than superficial breadth.
+**Key Advantage:** By Quarter 3, students have 30 weeks of experience with the same 9 languages, achieving true depth rather than superficial breadth. With 9 instead of 10 languages, there's more time for deep mastery of each.
 
 ## Skill Development Arc
 
 ### Quarter 1: Understanding and Exposure
-- **Reading:** Read and understand code in all 10 languages
+- **Reading:** Read and understand code in all 9 languages
 - **Writing:** Write simple, correct programs
 - **Conceptual:** Translate concepts between languages, recognize paradigm differences
 - **Comfort Level:** "I can use any of these languages with documentation"
@@ -682,10 +689,10 @@ Expert-level understanding - building real systems and implementing languages
 
 ### Depth Trajectory by Language Category
 
-**Functional (Haskell, OCaml, Racket):**
+**Functional (Haskell, Racket):**
 - Q1: Basic functions, recursion, pattern matching
-- Q2: Monads, type classes, lazy evaluation, advanced types
-- Q3: Implement type systems, build compilers, expert-level functional design
+- Q2: Monads, type classes (Haskell), macros (Racket), lazy evaluation, advanced types
+- Q3: Implement type systems (Haskell), build compilers, create languages (Racket), expert-level functional design
 
 **OOP (Java, Ruby, Python):**
 - Q1: Classes, objects, inheritance

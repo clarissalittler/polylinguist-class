@@ -2,20 +2,19 @@
 
 ## Philosophy
 
-This curriculum uses the **same 10 languages** across all three quarters, building true expertise rather than superficial knowledge of many languages. By Quarter 3, students have 30 weeks of experience in each language, achieving fluency in multiple paradigms.
+This curriculum uses the **same 9 languages** across all three quarters, building true expertise rather than superficial knowledge of many languages. By Quarter 3, students have 30 weeks of experience in each language, achieving fluency in multiple paradigms. Nine languages is the sweet spot - enough diversity to cover all major paradigms with less cognitive overload than ten.
 
 ## Visual Overview
 
 ```
-Quarter 1: FOUNDATIONS (10 languages)
+Quarter 1: FOUNDATIONS (9 languages)
 ══════════════════════════════════════════════════════════════════════
 INTRODUCTION - "I can write simple programs"
 
-Procedural/Systems     OOP                Functional           Logic/Other
-──────────────────     ───                ──────────           ───────────
+Procedural/Systems     OOP                Functional           Logic
+──────────────────     ───                ──────────           ─────
 C ★                    Java ★★            Haskell ★★★          Prolog ★★
-Python ★               Ruby ★★            OCaml ★★
-                                          Racket ★★
+Python ★               Ruby ★★            Racket ★★
 
 Multi-Paradigm
 ──────────────
@@ -25,15 +24,15 @@ Rust ★★★
 ★ = Beginner-friendly    ★★ = Moderate learning curve    ★★★ = Challenging
 
 
-Quarter 2: PARADIGM MASTERY (same 10 languages)
+Quarter 2: PARADIGM MASTERY (same 9 languages)
 ══════════════════════════════════════════════════════════════════════
 DEEPENING - "I write idiomatic code in each language"
 
 Advanced Features      Advanced Patterns  Advanced FP          Advanced Logic
 ─────────────────      ────────────────   ───────────          ──────────────
 C: pthreads, atomics   Java: patterns     Haskell: monads      Prolog: CLP
-Python: metaclasses    Ruby: metaprog     OCaml: modules
-Rust: async, traits                       Racket: macros
+Python: metaclasses    Ruby: metaprog     Racket: macros
+Rust: async, traits
 
 Multi-Paradigm Deep Dive
 ────────────────────────
@@ -41,36 +40,35 @@ JavaScript: async/await, functional patterns
 Rust: zero-cost abstractions, advanced types
 
 
-Quarter 3: MASTERY (same 10 languages)
+Quarter 3: MASTERY (same 9 languages)
 ══════════════════════════════════════════════════════════════════════
 EXPERTISE - "I build production systems and understand language implementation"
 
 Implementation         FFI/Systems        Compiler Building    Integration
 ──────────────         ───────────        ─────────────────    ───────────
-C: VM, FFI core        C ↔ Python         OCaml: parser        All languages
-Rust: safe FFI         C ↔ Ruby           Haskell: types       integrated in
-Python: tooling        C ↔ Haskell        Python: tooling      production
-                       Rust ↔ All                              systems
+C: VM, FFI core        C ↔ Python         Haskell: parser,     All languages
+Rust: safe FFI         C ↔ Ruby           type inference       integrated in
+Python: tooling        C ↔ Haskell        Racket: DSLs         production
+                       Rust ↔ All         Python: tooling      systems
 ```
 
 ## Language Depth Timeline
 
-### Quarter 1, Week 1: Introduction to All 10
-All 10 languages introduced simultaneously through "Hello, World!"
+### Quarter 1, Week 1: Introduction to All 9
+All 9 languages introduced simultaneously through "Hello, World!"
 - **C** - The systems programming classic
 - **Python** - Readable, multi-paradigm
 - **Java** - Enterprise OOP standard
 - **Ruby** - Expressive OOP
 - **JavaScript** - Web ubiquity
 - **Haskell** - Pure functional purity
-- **OCaml** - Pragmatic functional
-- **Racket** - Lisp experimentation
+- **Racket** - Lisp/Scheme experimentation, macros
 - **Prolog** - Logic programming
 - **Rust** - Modern systems safety
 
 ### Quarter 1: Basic Proficiency
 By end of Q1, students can:
-- Write simple programs in all 10 languages
+- Write simple programs in all 9 languages
 - Understand paradigm differences
 - Use documentation effectively
 - Debug basic errors
@@ -78,7 +76,7 @@ By end of Q1, students can:
 ### Quarter 2: Idiomatic Fluency
 By end of Q2, students can:
 - Write idiomatic code in each language
-- Leverage language-specific features (monads, metaprogramming, traits)
+- Leverage language-specific features (monads, metaprogramming, traits, macros)
 - Choose appropriate language for problem domain
 - Integrate multiple languages in one system
 
@@ -89,7 +87,8 @@ By end of Q3, students can:
 - Build production-quality multi-language systems
 - Teach others and contribute to open source
 
-**30 weeks with same 10 languages = True polyglot expertise**
+**30 weeks with same 9 languages = True polyglot expertise**
+**9 languages = Deep mastery, not superficial knowledge**
 
 ## Language Feature Matrix
 
@@ -100,17 +99,36 @@ By end of Q3, students can:
 | Java       | Static | OOP         | ✓  | ✗ | ✓ | ✗ | Threads |
 | Ruby       | Dynamic| OOP         | ✓  | ✗ | ✗ | ✓ | Threads |
 | JavaScript | Dynamic| Multi       | ✓  | ✗ | ✗ | ✗ | Event Loop/Async |
-| Haskell    | Static | Functional  | ✓  | ✗ | ✓ | ✗ | Lightweight threads |
-| OCaml      | Static | Functional  | ✓  | ✗ | ✓ | ✓ | Async/Lwt |
+| Haskell    | Static | Functional  | ✓  | ✗ | ✓ | ✗ | Lightweight threads/STM |
 | Racket     | Dynamic| Functional  | ✓  | ✗ | ✓ | ✓ | Threads |
 | Prolog     | Dynamic| Logic       | ✓  | ✗ | ✓ | ✗ | Single-threaded |
 | Rust       | Static | Multi       | ✗  | ✓ | ✓ | ✓ | Async/Threads |
 
-**Note:** These 10 languages are used throughout all three quarters, with increasing depth and sophistication.
+**Note:** These 9 languages are used throughout all three quarters, with increasing depth and sophistication.
 
 ## Why These Languages?
 
-### Quarter 1: Foundational Diversity
+## Why These 9 Languages?
+
+### Complete Paradigm Coverage
+
+This carefully curated set of 9 languages covers all major programming paradigms without redundancy:
+
+- **Procedural:** C
+- **Object-Oriented:** Java, Ruby, Python
+- **Functional (Pure):** Haskell
+- **Functional (Lisp):** Racket
+- **Logic:** Prolog
+- **Multi-Paradigm:** Python, JavaScript, Rust
+
+**What Makes This Set Optimal:**
+- Each language has a unique, irreplaceable role
+- All paradigms represented
+- No unnecessary overlap
+- Manageable cognitive load
+- Industry-relevant + academically important
+
+### Individual Language Rationales
 
 **C** - Teaches:
 - Explicit memory management
@@ -147,12 +165,6 @@ By end of Q3, students can:
 - Advanced type systems
 - Lazy evaluation
 - Mathematical rigor
-
-**OCaml** - Teaches:
-- Practical functional programming
-- Excellent type inference
-- Functional + imperative mix
-- Real-world FP usage
 
 **Racket** - Teaches:
 - Lisp philosophy
@@ -357,35 +369,32 @@ Skills gained that transfer across languages:
 
 ## Language Selection Rationale
 
-### Why These 10 Languages?
+### Summary: Why 9 Is The Right Number
 
-**Complete Paradigm Coverage:**
-- Procedural: C
-- OOP: Java, Ruby, Python
-- Functional: Haskell, OCaml, Racket
-- Logic: Prolog
-- Multi-paradigm: Python, JavaScript, Rust
+**Paradigm Coverage:** ✓ Complete - all major paradigms represented
 
-**Practical Relevance:**
-All 10 languages have significant industry use or academic importance
+**Cognitive Load:** ✓ Optimal - challenging but achievable
 
-**Depth Over Breadth:**
-10 languages is the sweet spot - enough diversity to see all paradigms, few enough to achieve real expertise
+**Depth vs Breadth:** ✓ Balanced - enough diversity, sufficient depth
+
+**Practical Value:** ✓ High - all languages have real-world relevance
+
+**Unique Contributions:** ✓ Yes - each language teaches something the others don't
 
 ### Why Not Include Other Languages?
 
 **Languages Deliberately Excluded:**
+- **OCaml:** Excellent language, but Haskell better represents pure FP and Racket covers pragmatic functional
 - **C++:** Too complex, doesn't add paradigmatic diversity beyond C and Rust
 - **Go:** Simple, but doesn't add paradigms not covered by C and others
 - **TypeScript:** Interesting, but essentially JavaScript with types
 - **Scala/Kotlin:** Excellent languages, but Java + Haskell cover the paradigms
 - **Clojure:** Great Lisp, but Racket covers Lisp paradigm
 - **Elixir:** Beautiful language, but doesn't add beyond functional + Prolog concepts
-- **Assembly:** Valuable for Q3, could be added as Week 1-2 topic
 - **Swift/Dart/Others:** Platform-specific or don't add paradigmatic diversity
 
-**The 10-Language Choice:**
-Represents a curated selection providing maximum paradigmatic diversity with minimum overlap. Each language offers unique insights not available in the others.
+**The 9-Language Choice:**
+Represents a minimal complete set - maximum paradigmatic diversity with zero redundancy. Each language offers unique insights not available in the others. Dropping from 10 to 9 reduces cognitive load while maintaining complete coverage.
 
 ### Could This Be Extended?
 
