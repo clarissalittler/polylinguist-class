@@ -1,246 +1,144 @@
-# Polylinguist Class: Learn Programming Through Multiple Languages
+# Polylinguist Class: Multi-Language Computer Science Curriculum
 
-A comprehensive introduction to computer science that teaches fundamental programming concepts through exploration of multiple programming languages and paradigms. Designed to be accessible to students of all backgrounds with no prior programming experience required.
+This repository contains a computer science curriculum designed to teach programming concepts through exposure to multiple programming languages, emphasizing that Computer Science is a language-agnostic discipline.
 
-## Why Learn Multiple Languages?
+## Repository Organization
 
-Traditional programming courses teach through a single language, but this course takes a different approach. By learning the same concepts in different languages, you will:
+This repository contains **two versions** of the curriculum:
 
-- **Understand concepts more deeply** - Seeing ideas from multiple perspectives reveals their universal nature
-- **Think like a polyglot** - Recognize that programming concepts transcend specific syntax
-- **Become adaptable** - Learn to pick up new languages quickly throughout your career
-- **Choose the right tool** - Understand which languages and paradigms fit different problems
-- **Appreciate language design** - See the tradeoffs different languages make
+### 📚 Nine-Language Version (`nine-language-version/`)
 
-## Languages & Paradigms Covered
+**Original comprehensive curriculum** featuring 9 languages across all major paradigms:
+- **Core Languages**: Python, Java, Ruby, JavaScript, C, Haskell, Racket, Prolog, Rust
+- **Approach**: Simultaneous exposure to all languages, building deep polyglot expertise over a full academic year
+- **Target Audience**: Honors sections, advanced students, or year-long sequences
+- **Status**: Complete with 16 core lessons, projects, and comprehensive instructor resources
 
-This course includes 9 programming languages representing different paradigms:
+👉 **[View Nine-Language Version](nine-language-version/README.md)**
 
-### Procedural & Systems
-- **C** - Low-level systems programming, explicit memory management
-- **Python** - High-level scripting, readability-focused
+---
 
-### Object-Oriented
-- **Java** - Enterprise OOP, strong static typing
-- **Ruby** - Expressive OOP, dynamic typing
-- **Python** - Multi-paradigm flexibility
+### 🎯 Three-Language Version (`three-language-version/`) ⭐ RECOMMENDED
 
-### Functional
-- **Haskell** - Pure functional, advanced type system, lazy evaluation
-- **Racket** - Lisp/Scheme dialect, macros, language-oriented programming
+**Streamlined curriculum** with more manageable cognitive load:
 
-### Logic
-- **Prolog** - Declarative logic programming, automated reasoning
+**Core Languages (heavily featured throughout):**
+1. **Python** - Multi-paradigm, accessible, industry-relevant
+2. **C++** - Object-oriented + systems programming (aligns with AP CS and state standards)
+3. **Haskell** - Pure functional programming, advanced type systems
 
-### Multi-Paradigm
-- **JavaScript** - Web-oriented, event-driven
-- **Rust** - Systems programming with safety guarantees
+**Minor Languages (1-2 week modules):**
+- **Racket** - Lisp/Scheme, macros, language-oriented programming
+- **C** - Systems programming fundamentals, memory management
+- **Rust** - Modern systems programming with safety guarantees
+- **Prolog** - Logic programming, declarative thinking
 
-## Course Structure
+**Capstone Projects:** Each term includes a capstone project where students choose one of the minor languages to build something substantial.
 
-### Lessons
+**Target Audience:**
+- Standard intro CS courses
+- Students with varying backgrounds
+- Quarter or semester-based courses
+- Institutions using C++ as a standard
 
-1. **Hello, World!** - First programs, compilation vs interpretation
-2. **Variables and Types** - Type systems, static vs dynamic typing
-3. **Control Flow** - Conditionals, loops, boolean logic
-4. **Functions** - Procedures, parameters, scope, purity
-5. **Data Structures** - Lists, arrays, maps, immutability
-6. **Recursion** - Recursive thinking, base cases, iteration comparison
-7. **Higher-Order Functions** - Functions as values, map/filter/reduce
-8. **Object-Oriented Programming** - Classes, inheritance, polymorphism
-9. **Pattern Matching** - Algebraic data types, destructuring
-10. **Type Systems** - Type inference, generics, type safety
+👉 **[View Three-Language Version](three-language-version/README.md)**
 
-Each lesson includes:
-- Conceptual explanations
-- Side-by-side code examples in multiple languages
-- Runnable code samples
-- Exercises and discussion questions
-- Paradigm comparisons
+---
 
-## Quick Start
+## Which Version Should I Use?
 
-### Prerequisites
+### Choose the **Three-Language Version** if:
+- ✅ You're teaching a standard intro CS course
+- ✅ Your students have mixed backgrounds (some beginners, some with exposure)
+- ✅ You're working within quarter or semester constraints
+- ✅ Your institution uses C++ as a standard language
+- ✅ You want students to achieve deep proficiency in core languages
 
-All required languages are already installed in this environment. Verify with:
+### Choose the **Nine-Language Version** if:
+- ✅ You're teaching an honors or advanced section
+- ✅ Students have prior programming exposure
+- ✅ You have a full academic year (30 weeks)
+- ✅ You have strong TA support for multiple toolchains
+- ✅ You want maximum paradigm exposure
 
-```bash
-python3 --version && node --version && ruby --version && javac --version && \
-ghc --version && ocaml --version && racket --version && swipl --version && \
-rustc --version && gcc --version
-```
+---
 
-### Getting Started
+## Core Philosophy (Shared by Both Versions)
 
-1. **Read the course materials**
-   - [SYLLABUS.md](SYLLABUS.md) - Complete course outline and learning outcomes
-   - [GETTING_STARTED.md](GETTING_STARTED.md) - Setup guide and study tips
+Both versions share the same fundamental pedagogical approach:
 
-2. **Start with Lesson 1**
-   ```bash
-   cd lessons/01-hello-world
-   cat README.md
-   ```
+1. **Concepts Before Syntax** - Programming ideas transcend specific languages
+2. **Comparative Learning** - Understanding differences between languages deepens conceptual knowledge
+3. **Language Agnosticism** - No language is "the best"; all have tradeoffs
+4. **Active Experimentation** - Students learn by doing, breaking, and fixing
+5. **Paradigm Diversity** - Exposure to different ways of thinking about computation
 
-3. **Run the examples**
-   ```bash
-   # Try programs in different languages
-   python3 hello.py
-   node hello.js
-   ruby hello.rb
+## Course Design Principles
 
-   # Or test all at once
-   ./test-all.sh
-   ```
+- **Transferable Skills**: Focus on concepts that apply across all languages
+- **Progressive Difficulty**: Carefully scaffolded from accessible to challenging
+- **Real-World Relevance**: Projects and exercises mirror professional development
+- **Inclusive Pedagogy**: Multiple entry points for students with different backgrounds
+- **Thoughtful Assessment**: Emphasis on understanding over syntax memorization
 
-4. **Explore and experiment**
-   - Modify the code
-   - Break things intentionally
-   - Compare different approaches
+## Getting Started
 
-### Repository Structure
+1. **Choose your version** (three-language recommended for most contexts)
+2. **Read the README** in your chosen version directory
+3. **Review the Instructor Guide** for teaching strategies
+4. **Set up development environments** following the setup guide
+5. **Start with Lesson 1** and work through the progression
 
-```
-polylinguist-class/
-├── README.md                    # This file
-├── SYLLABUS.md                  # Full course syllabus
-├── GETTING_STARTED.md           # Setup and study guide
-├── lessons/                     # Course lessons
-│   ├── 01-hello-world/         # Lesson 1: Hello, World!
-│   │   ├── README.md           # Lesson content
-│   │   ├── hello.py            # Python example
-│   │   ├── hello.js            # JavaScript example
-│   │   ├── hello.c             # C example
-│   │   ├── Hello.java          # Java example
-│   │   ├── hello.rb            # Ruby example
-│   │   ├── hello.hs            # Haskell example
-│   │   ├── hello.ml            # OCaml example
-│   │   ├── hello.rkt           # Racket example
-│   │   ├── hello.pl            # Prolog example
-│   │   ├── hello.rs            # Rust example
-│   │   └── test-all.sh         # Test all examples
-│   ├── 02-variables-types/     # Lesson 2: Variables & Types
-│   │   ├── README.md
-│   │   └── ... (examples in all languages)
-│   └── ... (more lessons)
-├── examples/                    # Additional example programs
-└── resources/                   # Reference materials
-    └── LANGUAGE_COMPARISON.md   # Side-by-side language comparisons
-```
+## Course Materials
 
-## Learning Philosophy
-
-### Concepts Over Syntax
-
-Don't worry about memorizing syntax. Focus on understanding:
-- What is a variable? A function? A type?
-- How do different paradigms approach problems?
-- When is immutability useful?
-- What makes code readable?
-
-### Comparative Learning
-
-Each concept is presented in multiple languages simultaneously. This helps you:
-- Separate universal concepts from language-specific syntax
-- Recognize patterns across paradigms
-- Appreciate different design philosophies
-
-### Practical Focus
-
-Every lesson includes:
-- Runnable code you can execute immediately
-- Exercises to practice concepts
-- Discussion questions to deepen understanding
-
-### No Prior Experience Needed
-
-This course assumes zero programming background. We start with "Hello, World!" and build up systematically.
-
-## Example: The Same Concept in Different Languages
-
-Here's how different languages print "Hello, World!":
-
-```python
-# Python - simple and readable
-print("Hello, World!")
-```
-
-```javascript
-// JavaScript - similar to Python
-console.log("Hello, World!");
-```
-
-```c
-// C - more verbose, explicit
-#include <stdio.h>
-int main() {
-    printf("Hello, World!\n");
-    return 0;
-}
-```
-
-```haskell
--- Haskell - functional, with type signature
-main :: IO ()
-main = putStrLn "Hello, World!"
-```
-
-```racket
-; Racket - Lisp-style S-expressions
-#lang racket
-(displayln "Hello, World!")
-```
-
-Notice how:
-- The concept is the same (output text)
-- The syntax varies significantly
-- Each reflects its language's philosophy
-
-## Resources
-
-### Documentation
-- [Language Comparison Guide](resources/LANGUAGE_COMPARISON.md) - Side-by-side syntax comparisons
-- Official documentation linked in [GETTING_STARTED.md](GETTING_STARTED.md)
-
-### Interactive Learning
-- Use REPLs for experimentation (Python, Node, Ruby, Haskell, OCaml, Racket, Prolog)
-- Modify example code and observe results
-- Make intentional errors to learn from them
-
-## Who Is This For?
-
-- **Complete beginners** - No programming experience required
-- **Self-taught programmers** - Fill gaps and gain broader perspective
-- **Students** - Supplement traditional CS courses
-- **Polyglots** - Learn to see patterns across languages
-- **Career changers** - Build strong foundations
-
-## Learning Outcomes
-
-After completing this course, you will be able to:
-
-1. Write basic programs in 5+ programming languages
-2. Explain fundamental CS concepts (variables, functions, types, control flow)
-3. Understand different programming paradigms (procedural, OOP, functional, logic)
-4. Choose appropriate languages for different problem domains
-5. Read and understand code in unfamiliar languages
-6. Learn new programming languages independently
-7. Recognize universal programming patterns
+Both versions include:
+- **Lesson Content**: Comprehensive explanations with side-by-side code examples
+- **Exercises**: Progressive difficulty from warmup to challenge problems
+- **Solutions**: Reference implementations in all featured languages
+- **Projects**: Integrative capstone projects building real applications
+- **Instructor Resources**: Teaching guides, rubrics, pacing guides, assessment strategies
+- **Setup Guides**: Step-by-step installation and configuration
+- **Test Scripts**: Automated testing to verify all code examples work
 
 ## Contributing
 
-This is an educational project. Suggestions for improvements are welcome!
+We welcome contributions! Whether you're:
+- Fixing typos or errors
+- Adding exercises or examples
+- Improving explanations
+- Translating to additional languages
+- Sharing teaching experiences
+
+Please open an issue or pull request.
 
 ## License
 
-See [LICENSE](LICENSE) for details.
+This curriculum is released under the MIT License. See [LICENSE](LICENSE) for details.
 
-## Get Started Now!
+## Contact & Support
 
-Ready to begin your multilingual programming journey?
+- **Issues**: Please report bugs or request features via GitHub Issues
+- **Discussions**: Share teaching experiences and ask questions in GitHub Discussions
+- **Updates**: Watch this repository for updates and improvements
 
-1. Read [GETTING_STARTED.md](GETTING_STARTED.md)
-2. Review the [SYLLABUS.md](SYLLABUS.md)
-3. Start with [Lesson 1: Hello, World!](lessons/01-hello-world/README.md)
+---
 
-Happy coding! 🚀
+## Quick Links
+
+### Three-Language Version (Recommended)
+- [Three-Language README](three-language-version/README.md)
+- [Getting Started Guide](three-language-version/GETTING_STARTED.md)
+- [Instructor Guide](three-language-version/INSTRUCTOR_GUIDE.md)
+- [Lesson 1: Hello, World!](three-language-version/lessons/01-hello-world/)
+
+### Nine-Language Version (Advanced)
+- [Nine-Language README](nine-language-version/README.md)
+- [Getting Started Guide](nine-language-version/GETTING_STARTED.md)
+- [Instructor Guide](nine-language-version/INSTRUCTOR_GUIDE.md)
+- [Lesson 1: Hello, World!](nine-language-version/lessons/01-hello-world/)
+
+---
+
+**Happy Teaching! 🎓**
+
+*Teaching programming through the lens of language diversity creates adaptable, conceptual thinkers who can thrive in any technical context.*
