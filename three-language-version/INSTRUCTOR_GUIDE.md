@@ -1,21 +1,22 @@
 # Instructor Guide
 ## Teaching the Three-Language CS Curriculum
 
-This guide provides teaching strategies, lesson tips, and pedagogical advice for instructors delivering the multi-language introductory computer science curriculum.
+This guide provides teaching strategies, lesson tips, and pedagogical advice for instructors delivering the project-based, multi-language introductory computer science curriculum across three 11-week quarters.
 
 ---
 
 ## Table of Contents
 
 1. [Philosophy & Rationale](#philosophy--rationale)
-2. [Before the Course](#before-the-course)
-3. [Teaching Strategies](#teaching-strategies)
-4. [Week-by-Week Teaching Notes](#week-by-week-teaching-notes)
-5. [Lesson-Specific Tips](#lesson-specific-tips)
-6. [Common Student Challenges](#common-student-challenges)
-7. [Assessment Strategies](#assessment-strategies)
-8. [Adapting the Curriculum](#adapting-the-curriculum)
-9. [Resources for Instructors](#resources-for-instructors)
+2. [Project-Based Learning](#project-based-learning)
+3. [Before the Course](#before-the-course)
+4. [Teaching Strategies](#teaching-strategies)
+5. [Quarter-by-Quarter Notes](#quarter-by-quarter-notes)
+6. [Lesson-Specific Tips](#lesson-specific-tips)
+7. [Common Student Challenges](#common-student-challenges)
+8. [Project Assessment](#project-assessment)
+9. [Adapting the Curriculum](#adapting-the-curriculum)
+10. [Resources for Instructors](#resources-for-instructors)
 
 ---
 
@@ -58,6 +59,81 @@ Every concept should be taught language-agnostically first:
 **Don't:**
 - "Today we learn Python's for loop"
 - Focus on syntax before understanding purpose
+
+---
+
+## Project-Based Learning
+
+### Why No Exams?
+
+This curriculum is **100% project-based** with no traditional exams. Here's why:
+
+**Exams measure recall; projects measure understanding.**
+- Writing code under time pressure tests memorization
+- Building projects tests whether students can actually *do* something
+- Creative work reveals deeper understanding than multiple-choice questions
+
+**Programming is a creative act.**
+- Students learn best when they care about what they're building
+- Projects allow personalization and ownership
+- The goal is makers, not test-takers
+
+**Real-world alignment.**
+- No one gives you an exam at a job interview (they give you a project)
+- Portfolio of work matters more than grades
+- Iteration and improvement are valued
+
+### The Project Rhythm
+
+Each quarter has **3 major projects** plus a capstone in Q3:
+
+```
+Week 1-2: Lesson content
+Week 2-3: Project 1 (shorter, foundational)
+Week 4:   Project 1 due
+Week 5-6: More lessons + Project 2 assigned
+Week 7:   Project 2 due
+Week 8:   Synthesis + Project 3 assigned
+Week 9-10: Project development time
+Week 11:  Showcase & presentations
+```
+
+### Encouraging Creativity
+
+**Base + Extensions model:**
+- Every project has a base requirement (B-level work)
+- Creative extensions push for A-level work
+- Students can propose their OWN extensions
+
+**Make it theirs:**
+- "Personal Dashboard" should be *personal*
+- "Simulation" can simulate *anything*
+- "Creative Tool" should enable *their* creativity
+
+**Celebrate uniqueness:**
+- Highlight diverse approaches in showcases
+- Avoid comparing students to each other
+- Value creativity as much as correctness
+
+### Showcase Days
+
+Each quarter ends with a **Showcase** where students present their work:
+
+**Format:**
+- 5-7 minutes per student (adjust for class size)
+- Demo the project
+- Discuss what they learned
+- Answer questions
+
+**Atmosphere:**
+- Celebratory, not evaluative
+- Peer appreciation and feedback
+- Learning from each other's approaches
+
+**Logistics:**
+- Schedule across multiple sessions if needed
+- Have a backup plan for technical difficulties
+- Encourage questions and discussion
 
 ---
 
@@ -331,10 +407,10 @@ Don't force OOP onto Haskell. Instead, show how Haskell achieves similar goals d
 - Data types for structured data
 - "Haskell proves you don't need OOP for good code"
 
-**Midterm Prep:**
-- Review sessions
-- Practice problems from all 7 lessons
-- Emphasize conceptual understanding
+**Quarter Synthesis:**
+- This is a good point for integration and reflection
+- Compare paradigms across all languages learned
+- Prepare for Q1's final project (Interactive Story/Game)
 
 ### Week 7-8: Higher-Order Functions & Minor Languages
 
@@ -682,91 +758,153 @@ For each data structure:
 
 ---
 
-## Assessment Strategies
+## Project Assessment
+
+### The 100% Project-Based Approach
+
+This course uses **no traditional exams**. All assessment is through projects, exercises, and reflection.
+
+**Grade Breakdown:**
+- **Projects (75%):** 9 projects across 3 quarters + capstone
+- **Exercises & Labs (15%):** Weekly practice work
+- **Participation & Reflection (10%):** Engagement, presentations, written reflections
+
+### Project Rubric
+
+Each project is assessed on five dimensions:
+
+| Criterion | Weight | Description |
+|-----------|--------|-------------|
+| **Creativity & Ambition** | 25% | Did they push themselves? Try something interesting? |
+| **Functionality** | 25% | Does it work? Does it do what they intended? |
+| **Code Quality** | 20% | Is it readable, organized, well-structured? |
+| **Process & Iteration** | 15% | Version control? Iteration? Improvement over time? |
+| **Reflection** | 15% | Can they articulate what they learned? |
+
+### The Base + Extensions Model
+
+Every project has:
+- **Base requirement:** Achieves B-level grade when met
+- **Creative extensions:** Listed suggestions for A-level work
+- **Student-proposed extensions:** Encourage students to pitch their own ideas!
+
+**Grading guidance:**
+- **A/A-:** Base + multiple extensions OR one ambitious extension
+- **B+/B:** Base requirement fully met, solid work
+- **B-/C+:** Base mostly met, some gaps
+- **C/C-:** Significant gaps but shows effort
+- **D/F:** Incomplete or minimal effort
+
+### Assessing Creativity
+
+This is subjective but important. Look for:
+
+**Signs of high creativity:**
+- Personalized the project (made it about something they care about)
+- Tried something risky that might not work
+- Combined ideas in unexpected ways
+- Went beyond the suggested extensions
+- Shows genuine enthusiasm in presentation
+
+**Signs of low creativity (but still acceptable):**
+- Followed the spec literally
+- Chose the easiest path at every decision
+- Project is generic/impersonal
+- No extensions attempted
+
+**Never penalize failed experiments.** A student who tried something ambitious and partially failed shows more growth than one who played it safe.
 
 ### Formative Assessment
 
-#### Weekly Concept Checks
-Quick questions at start/end of class:
-- "Explain recursion without mentioning a programming language"
-- "What's the difference between static and dynamic typing?"
-- Exit tickets: "What's still confusing?"
+#### Weekly Check-ins
+- How's the project going?
+- What's blocking you?
+- What are you excited about?
 
 #### Code Reviews
-Pair students for code review:
-- Student A explains their Python solution
-- Student B explains their C++ solution
-- Discussion: which is cleaner? why?
+Pair students for peer review:
+- Focus on "What did you learn from seeing their approach?"
+- Not "Which is better?"
 
-### Summative Assessment
+#### Exit Tickets
+Quick end-of-class reflections:
+- "What concept clicked today?"
+- "What's still fuzzy?"
+- "What do you want to try?"
 
-#### Exam Design
+### Showcase Presentations
 
-**Do:**
-- Ask conceptual questions
-- Show code in multiple languages
-- "What does this code do?" (any language)
-- "How would you solve X?" (pseudocode okay)
+**Presentation rubric:**
+- **Demo (40%):** Does the project work? Can they show it?
+- **Explanation (30%):** Can they explain what they built and why?
+- **Reflection (20%):** What did they learn? What would they change?
+- **Q&A (10%):** Can they answer questions thoughtfully?
 
-**Don't:**
-- Heavy syntax questions
-- Language-specific trivia
-- Memorization over understanding
+**Presentation tips:**
+- Keep them short (5-7 minutes)
+- Practice beforehand if nervous
+- Celebrate what works, be honest about what doesn't
 
-**Sample Questions:**
+### Capstone Assessment
 
-1. *Conceptual:* "Explain the difference between compiled and interpreted languages. Give an example of each from this course."
+The Q3 capstone has higher stakes and expectations:
 
-2. *Code Reading:* "What does this Haskell function compute?"
-   ```haskell
-   mystery [] = 0
-   mystery (x:xs) = 1 + mystery xs
-   ```
+**Proposal evaluation:**
+- Is the scope appropriate?
+- Is there a clear vision?
+- Are milestones realistic?
 
-3. *Comparison:* "Write a function that returns the sum of a list of numbers. Show your solution in TWO different languages from the course."
+**Final assessment:**
+- All five rubric dimensions
+- Does it demonstrate growth across all three quarters?
+- Is there genuine ownership and pride in the work?
 
-4. *Analysis:* "What is the time complexity of the following algorithm? Justify your answer."
+### Handling Late Work
 
-#### Project Rubrics
+Projects are due at showcases, but we prefer great work over rushed work:
 
-Each project should assess:
-- **Correctness (40%):** Does it work?
-- **Design (25%):** Is it well-structured?
-- **Documentation (15%):** Is it explained?
-- **Testing (10%):** Are edge cases handled?
-- **Process (10%):** Was version control used?
-
-#### Capstone Assessment
-
-The capstone should demonstrate:
-- Ability to use a minor language
-- Transfer of concepts from core languages
-- Reflection on paradigm differences
-- Complete, working software
+- **Before deadline:** Extensions freely granted if requested
+- **Incomplete at showcase:** Present what you have, explain the plan
+- **Late submission:** Accepts feedback, reduced credit
+- **Never submitted:** Zero, but offer chance to resubmit for partial credit
 
 ---
 
 ## Adapting the Curriculum
 
-### Shorter Courses (8-10 weeks)
+### Using Fewer Than Three Quarters
 
-**Remove:**
-- One of Rust/Prolog
-- Detailed Git module (basic only)
-- Some algorithm lessons (14-16)
+**Single Quarter (11 weeks):**
+- Use Q1 content only (Lessons 1-6)
+- 2-3 projects
+- Focus on core three languages
+- No minor languages
 
-**Compress:**
-- Combine variables/types + control flow
-- Faster pace on OOP
-- Shorter minor language modules
+**Two Quarters (22 weeks):**
+- Q1 + Q2 (Lessons 1-11)
+- 6 projects
+- Include Racket and C modules
+- Capstone at end of Q2
 
-### Longer Courses (16+ weeks)
+### Semester System (15 weeks)
 
-**Add:**
-- More project time
-- Deeper minor language modules
-- Additional paradigms (logic, concurrent)
-- Student presentations
+**Fall Semester:**
+- Combine Q1 weeks 1-8 with condensed pacing
+- 3 projects (compress timing)
+- Add Q2 weeks 1-4 (OOP, Higher-Order Functions, Racket)
+
+**Spring Semester:**
+- Q2 weeks 5-11 + full Q3
+- Include all minor languages
+- Capstone
+
+### Accelerated Pacing
+
+For advanced students or bootcamp-style delivery:
+- Combine lessons (Variables+Types with Control Flow)
+- Shorter project timelines
+- More independent work, less lecture
+- Focus on capstone quality over quantity of projects
 
 ### Different Language Choices
 

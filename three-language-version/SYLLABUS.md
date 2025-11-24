@@ -1,510 +1,586 @@
-# CS 101: Introduction to Computer Science
-## A Multi-Language, Multi-Paradigm Approach
+# CS 101-103: Introduction to Computer Science
+## A Project-Based, Multi-Language Journey
 
-**Course Version:** Three-Language Curriculum
+**Course Version:** Three-Language Curriculum (Project-Based)
 **Prerequisites:** None (designed for new students with no prior programming experience)
-**Credit Hours:** 4
-**Recommended Schedule:** 10-15 weeks (adaptable to semester or quarter systems)
+**Structure:** Three 11-week quarters
+**Credit Hours:** 4 per quarter (12 total)
 
 ---
 
-## Course Description
+## Course Philosophy
 
-This course introduces fundamental computer science concepts through comparative programming in three core languages: Python, C++, and Haskell. By learning the same concepts expressed in different paradigms, students develop language-agnostic thinking skills that transfer to any future programming context.
+This is a **project-based** course where learning happens through building. There are no traditional exams—your understanding is demonstrated through creative projects that grow in complexity across three quarters.
 
-Unlike traditional single-language introductory courses, this curriculum emphasizes that **Computer Science is not any single programming language**—it is the study of computation, algorithms, and problem-solving. Languages are tools; concepts are what matter.
+**We believe:**
+- Programming is a creative act, like writing or making music
+- The best way to learn is by building things you care about
+- Making mistakes and iterating is more valuable than "getting it right" the first time
+- Understanding concepts matters more than memorizing syntax
 
-Students will achieve **proficiency in three languages** (Python, C++, Haskell) while gaining **literacy in four additional languages** (Racket, C, Rust, Prolog) through focused modules.
+**Computer Science is not any single programming language.** By learning through three languages (Python, C++, Haskell) and exploring four more (Racket, C, Rust, Prolog), you'll develop the adaptable thinking skills that transfer to any language you encounter in the future.
+
+---
+
+## The Three Quarters
+
+| Quarter | Focus | Core Languages | Minor Languages | Major Projects |
+|---------|-------|----------------|-----------------|----------------|
+| **Q1: Foundations** | Building blocks of programming | Python, C++, Haskell (intro) | — | 3 projects |
+| **Q2: Paradigms** | Different ways to think about code | All three balanced | Racket, C | 3 projects |
+| **Q3: Applications** | Putting it all together | All three advanced | Rust, Prolog | 3 projects + Capstone |
 
 ---
 
 ## Learning Outcomes
 
-By the end of this course, students will be able to:
+By the end of all three quarters, you will be able to:
 
-### Core Competencies
-1. **Write functional programs** in Python, C++, and Haskell
-2. **Explain fundamental CS concepts** (variables, control flow, functions, recursion, data structures, algorithms) without language-specific jargon
-3. **Compare and contrast programming paradigms** (procedural, object-oriented, functional)
-4. **Analyze algorithm complexity** using Big-O notation
-5. **Implement classic data structures** (lists, stacks, queues, trees, graphs)
-6. **Apply problem-solving methodologies** including decomposition, pattern recognition, and abstraction
+### Creative & Technical Skills
+1. **Design and build software** from scratch to solve problems you care about
+2. **Write functional programs** in Python, C++, and Haskell
+3. **Read and adapt code** in languages you've never seen before
+4. **Choose the right tool** for different kinds of problems
+5. **Iterate and improve** your work based on feedback and testing
 
-### Transfer Skills
-7. **Read and understand code** in unfamiliar languages by recognizing universal patterns
-8. **Learn new programming languages** rapidly by mapping new syntax to known concepts
-9. **Choose appropriate tools** for different problem domains
-10. **Appreciate language design tradeoffs** and understand why different languages exist
+### Conceptual Understanding
+6. **Explain core CS concepts** (functions, recursion, data structures, algorithms) without language-specific jargon
+7. **Compare paradigms** (procedural, object-oriented, functional, logic) and know when each shines
+8. **Analyze algorithm efficiency** using Big-O notation
+9. **Understand language design tradeoffs** and why different languages exist
 
-### Professional Skills
-11. **Use version control** (Git) for code management and collaboration
-12. **Write and run automated tests** to verify program correctness
-13. **Debug programs systematically** using appropriate tools and techniques
-14. **Work collaboratively** on programming projects
+### Professional Practices
+10. **Use version control** (Git) to manage your code and collaborate
+11. **Write and run tests** to verify your programs work correctly
+12. **Debug systematically** when things go wrong
+13. **Document and present** your creative work
+
+---
+
+## Assessment: Project-Based Learning
+
+### No Exams!
+
+This course has **no midterms or finals**. Your learning is assessed entirely through:
+- **Projects** (75% of grade)
+- **Exercises & Labs** (15% of grade)
+- **Participation & Reflection** (10% of grade)
+
+### Project Assessment Philosophy
+
+Projects are graded on:
+
+| Criterion | Weight | What We're Looking For |
+|-----------|--------|----------------------|
+| **Creativity & Ambition** | 25% | Did you push yourself? Try something interesting? |
+| **Functionality** | 25% | Does it work? Does it do what you set out to do? |
+| **Code Quality** | 20% | Is it readable, organized, well-structured? |
+| **Process & Iteration** | 15% | Did you use version control? Iterate and improve? |
+| **Reflection** | 15% | Can you articulate what you learned and what you'd do differently? |
+
+### Creative Extensions
+
+Every project has a **base requirement** and **creative extensions**. You can:
+- **Meet the base requirement** for a B-range grade
+- **Add creative extensions** for A-range grades
+- **Propose your own extensions** that excite you
+
+We want you to make projects your own!
+
+---
+
+## Grading Scale
+
+| Letter | Percentage | Description |
+|--------|------------|-------------|
+| A | 93-100% | Exceptional creative work, goes beyond requirements |
+| A- | 90-92% | Excellent work with creative extensions |
+| B+ | 87-89% | Strong work meeting all requirements |
+| B | 83-86% | Solid work with minor gaps |
+| B- | 80-82% | Meets basic requirements |
+| C+ | 77-79% | Adequate with some incomplete elements |
+| C | 73-76% | Minimum acceptable work |
+| C- | 70-72% | Marginal pass |
+| D | 60-69% | Significant gaps |
+| F | <60% | Not passing |
+
+---
+
+# Quarter 1: Foundations (11 Weeks)
+
+**Theme:** Learning to speak three languages
+
+In the first quarter, you'll learn the fundamental building blocks of programming through three very different languages. By the end, you'll be comfortable writing basic programs in Python, C++, and Haskell.
+
+## Q1 Schedule
+
+### Week 1: Welcome & Setup
+- Course introduction and philosophy
+- Environment setup (Python, C++, Haskell)
+- **Lesson 1: Hello, World!**
+- Your first programs in three languages
+- Introduction to computational thinking
+
+### Week 2: Data & Types
+- **Lesson 2: Variables & Types**
+- How languages think about data differently
+- Dynamic vs static typing
+- Lab: Type exploration exercises
+
+**Project 1 Assigned: Personal Dashboard**
+
+### Week 3: Making Decisions
+- **Lesson 3: Control Flow**
+- Conditionals across paradigms
+- Introduction to loops
+- Lab: Decision-making programs
+
+### Week 4: Building Blocks
+- **Lesson 4: Functions**
+- Abstraction and reusability
+- Pure functions vs side effects
+- **Module: Git & Version Control**
+
+**Project 1 Due**
+
+### Week 5: Collections
+- **Lesson 5: Data Structures**
+- Lists, arrays, vectors
+- Maps and dictionaries
+- Mutability vs immutability
+
+**Project 2 Assigned: Data Explorer**
+
+### Week 6: Thinking Recursively
+- **Lesson 6: Recursion**
+- Base cases and recursive steps
+- Recursion vs iteration
+- Tail recursion
+
+### Week 7: Recursion Practice
+- Deep dive into recursive thinking
+- Tree-like problems
+- Lab: Recursive art and patterns
+
+**Project 2 Due**
+
+### Week 8: Midpoint Synthesis
+- Review and integration
+- Comparing what you've learned across languages
+- Paradigm reflection
+
+**Project 3 Assigned: Interactive Story or Game**
+
+### Week 9: Project Development
+- Project work time
+- Individual consultations
+- Peer feedback sessions
+
+### Week 10: Project Development
+- Project work time
+- Code review workshops
+- Testing and debugging
+
+### Week 11: Quarter Showcase
+- **Project 3 Due**
+- Project presentations
+- Quarter reflection
+- Preview of Q2
+
+---
+
+## Q1 Projects
+
+### Project 1: Personal Dashboard (Weeks 2-4)
+**Base:** Build a command-line tool that displays personalized information—weather, quotes, todo items, or anything meaningful to you.
+
+**Creative Extensions:**
+- Pull real data from APIs
+- Add ASCII art or color
+- Make it configurable
+- Track data over time
+
+**Skills:** Variables, I/O, basic control flow, file handling
+
+---
+
+### Project 2: Data Explorer (Weeks 5-7)
+**Base:** Create a tool that loads a dataset and lets users query, filter, and discover insights.
+
+**Creative Extensions:**
+- Visualize data with ASCII charts
+- Support multiple data formats
+- Add statistical analysis
+- Create a recommendation feature
+
+**Skills:** Data structures, functions, recursion, file I/O
+
+---
+
+### Project 3: Interactive Story or Game (Weeks 8-11)
+**Base:** Build an interactive fiction, text adventure, or simple game that responds to user input and maintains state.
+
+**Creative Extensions:**
+- Branching narratives with consequences
+- Save/load game state
+- Procedural generation
+- Multiple endings based on player choices
+
+**Skills:** Control flow, data structures, functions, state management
+
+---
+
+# Quarter 2: Paradigms (11 Weeks)
+
+**Theme:** Different ways to think about code
+
+In the second quarter, you'll dive deeper into programming paradigms—object-oriented, functional, and beyond. You'll also meet two new languages: Racket (Lisp) and C.
+
+## Q2 Schedule
+
+### Week 1: Objects & Classes
+- **Lesson 7: Object-Oriented Programming**
+- Classes, objects, methods
+- Inheritance and polymorphism
+- OOP in Python and C++
+
+### Week 2: OOP Deep Dive
+- Design patterns introduction
+- When OOP helps (and when it doesn't)
+- Haskell's alternative: type classes
+
+**Project 4 Assigned: Simulation**
+
+### Week 3: Functions as Values
+- **Lesson 8: Higher-Order Functions**
+- Map, filter, reduce
+- Lambdas and closures
+- Functional programming philosophy
+
+### Week 4: Lisp & Racket
+- **Racket Module Begins**
+- S-expressions and lists
+- Code as data
+- A different way of thinking
+
+**Project 4 Due**
+
+### Week 5: Racket Deep Dive
+- Racket functions and recursion
+- Pattern matching
+- Macros introduction
+
+**Project 5 Assigned: Language Tool**
+
+### Week 6: Pattern Matching
+- **Lesson 9: Pattern Matching**
+- Destructuring in Haskell
+- Matching in different languages
+- Algebraic data types
+
+### Week 7: Systems Programming
+- **C Module Begins**
+- Pointers and memory
+- What higher-level languages hide
+- Manual memory management
+
+**Project 5 Due**
+
+### Week 8: Types & Safety
+- **Lesson 10: Type Systems**
+- Type inference
+- Static vs dynamic typing tradeoffs
+- Generics and templates
+
+**Project 6 Assigned: Creative Tool**
+
+### Week 9: When Things Go Wrong
+- **Lesson 11: Error Handling**
+- Exceptions vs Result types
+- Defensive programming
+- **Module: Testing & Debugging**
+
+### Week 10: Project Development
+- Project work time
+- Cross-language comparison discussions
+- Peer code review
+
+### Week 11: Quarter Showcase
+- **Project 6 Due**
+- Project presentations
+- Quarter reflection
+- Preview of Q3
+
+---
+
+## Q2 Projects
+
+### Project 4: Simulation (Weeks 1-4)
+**Base:** Build a simulation of something—an ecosystem, economy, social network, physics system, or anything that evolves over time.
+
+**Creative Extensions:**
+- Visualization of the simulation
+- Multiple interacting systems
+- Emergent behavior
+- User can modify parameters
+
+**Skills:** OOP, data structures, state management, higher-order functions
+
+---
+
+### Project 5: Language Tool (Weeks 5-7)
+**Base:** Create a tool that works with language—a translator, text analyzer, generator, or formatter.
+
+**Creative Extensions:**
+- Natural language processing features
+- Multiple language support
+- Grammar checking
+- Creative text generation
+
+**Skills:** String processing, pattern matching, recursion, possibly Racket
+
+---
+
+### Project 6: Creative Tool (Weeks 8-11)
+**Base:** Build a tool for creating something—music, art, writing, or designs. Focus on enabling creativity.
+
+**Creative Extensions:**
+- Procedural generation
+- User customization
+- Export to real formats
+- Collaboration features
+
+**Skills:** All Q1-Q2 concepts, file I/O, possibly multiple languages
+
+---
+
+# Quarter 3: Applications (11 Weeks)
+
+**Theme:** Putting it all together
+
+In the final quarter, you'll tackle algorithms, data structures, and build your capstone project. You'll also explore Rust and Prolog to complete your tour of programming paradigms.
+
+## Q3 Schedule
+
+### Week 1: Efficiency Matters
+- **Lesson 12: Algorithm Analysis**
+- Big-O notation
+- Time vs space tradeoffs
+- When efficiency matters
+
+### Week 2: Sorting & Searching
+- **Lesson 13: Sorting & Searching**
+- Classic algorithms
+- Implementing in multiple languages
+- Analysis and comparison
+
+**Project 7 Assigned: Efficient System**
+
+### Week 3: Linear Structures
+- **Lesson 14: Stacks, Queues, Lists**
+- Abstract data types
+- Implementations in different paradigms
+- **Module: File I/O**
+
+### Week 4: Modern Systems
+- **Rust Module Begins**
+- Ownership and borrowing
+- Memory safety without garbage collection
+- Modern systems programming
+
+**Project 7 Due**
+
+### Week 5: Trees
+- **Lesson 15: Trees**
+- Binary trees, BSTs
+- Traversals
+- Tree-based algorithms
+
+**Project 8 Assigned: Data Structure Application**
+
+### Week 6: Graphs
+- **Lesson 16: Graphs**
+- Graph representations
+- Graph algorithms
+- Real-world applications
+
+### Week 7: Logic Programming
+- **Prolog Module Begins**
+- A completely different paradigm
+- Facts, rules, queries
+- Declarative problem solving
+
+**Project 8 Due**
+
+### Week 8: Capstone Kickoff
+- Capstone project introduction
+- Proposal development
+- Scope and planning
+
+**Capstone Proposals Due**
+
+### Week 9: Capstone Development
+- Project work time
+- Weekly check-ins
+- Peer feedback
+
+### Week 10: Capstone Development
+- Project work time
+- Integration and testing
+- Preparing presentation
+
+### Week 11: Capstone Showcase
+- **Capstone Projects Due**
+- Final presentations
+- Course celebration
+- Reflection and next steps
+
+---
+
+## Q3 Projects
+
+### Project 7: Efficient System (Weeks 1-4)
+**Base:** Build something where efficiency matters—a search engine, database, compression tool, or performance-critical application.
+
+**Creative Extensions:**
+- Benchmark and optimize
+- Multiple algorithm implementations to compare
+- Visualization of performance
+- Handle large datasets
+
+**Skills:** Algorithm analysis, sorting/searching, data structures
+
+---
+
+### Project 8: Data Structure Application (Weeks 5-7)
+**Base:** Build an application that showcases a non-trivial data structure—a file system navigator, social network analyzer, route planner, or recommendation system.
+
+**Creative Extensions:**
+- Visual representation of the structure
+- Real-world data integration
+- Multiple data structure comparison
+- Interactive exploration
+
+**Skills:** Trees, graphs, advanced data structures
+
+---
+
+### Capstone Project (Weeks 8-11)
+**The capstone is your chance to dream big.**
+
+Choose one of these paths:
+
+**Path A: Build Something Ambitious**
+Design and build a substantial project that demonstrates your growth. Examples:
+- A programming language interpreter
+- A game with complex mechanics
+- A creative tool with real utility
+- A data analysis pipeline
+
+**Path B: Deep Exploration**
+Go deep on a topic and create something that teaches others. Examples:
+- A tutorial system that teaches a concept
+- A comparative analysis with working code
+- An exploration of a paradigm in depth
+
+**Path C: Minor Language Showcase**
+Build a significant project in Racket, C, Rust, or Prolog that showcases the language's strengths.
+
+**Requirements:**
+- Proposal with scope and milestones
+- Regular check-ins
+- Working, documented code
+- Reflection on the journey
+- Presentation to the class
 
 ---
 
 ## Required Materials
 
-### Software (Free)
-- **Python 3.8+** - https://www.python.org/
-- **C++ Compiler** (g++ with C++17 support) - included with Xcode (Mac), MinGW (Windows), or GCC (Linux)
-- **Haskell (GHC 8.10+)** - https://www.haskell.org/ghcup/
-- **Git** - https://git-scm.com/
-- **VS Code** (recommended) - https://code.visualstudio.com/
+### Software (All Free)
+**Core Languages:**
+- Python 3.8+ — https://www.python.org/
+- C++ Compiler (g++) — included with OS dev tools
+- Haskell (GHC) — https://www.haskell.org/ghcup/
+- Git — https://git-scm.com/
+- VS Code (recommended) — https://code.visualstudio.com/
 
-### Additional Languages (Installed Later)
-- **Racket** - https://racket-lang.org/ (Week 7)
-- **Rust** - https://rustup.rs/ (Week 9)
-- **SWI-Prolog** - https://www.swi-prolog.org/ (Week 10)
+**Minor Languages (installed when needed):**
+- Racket — https://racket-lang.org/
+- Rust — https://rustup.rs/
+- SWI-Prolog — https://www.swi-prolog.org/
 
-### Textbooks (Optional/Supplementary)
-No required textbook. All materials provided in course repository. Recommended supplementary resources:
-- *Learn You a Haskell for Great Good!* (free online)
+### No Required Textbook
+All materials provided. Recommended supplementary resources:
+- *Learn You a Haskell* (free online)
 - *Automate the Boring Stuff with Python* (free online)
 - *learncpp.com* (free online)
-
----
-
-## Course Structure
-
-### Format
-- **Lectures:** 3 hours/week (concepts, demonstrations, comparisons)
-- **Labs:** 2 hours/week (hands-on programming in all three languages)
-- **Office Hours:** 2 hours/week minimum
-
-### Content Organization
-- **16 Core Lessons** - Fundamental CS concepts taught in all three core languages
-- **4 Practical Modules** - Professional skills (Git, testing, file I/O, computational thinking)
-- **4 Language Modules** - Focused introductions to Racket, C, Rust, and Prolog
-- **6 Progressive Projects** - Hands-on application from simple to capstone
-
----
-
-## Weekly Schedule
-
-### Week 1: Foundations
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | Course Introduction & Philosophy | Syllabus, README |
-| 2 | Environment Setup | GETTING_STARTED.md |
-| 3 | **Lesson 1: Hello, World!** | lessons/01-hello-world |
-| 4 | Lab: First Programs in 3 Languages | Exercises 1-4 |
-| 5 | **Lesson 2: Variables & Types** | lessons/02-variables-types |
-
-**Module:** Computational Thinking (integrated throughout)
-**Languages:** Python (50%), C++ (30%), Haskell (20%)
-
----
-
-### Week 2: Control Structures
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | Variables & Types (continued) | Exercises |
-| 2 | **Lesson 3: Control Flow** | lessons/03-control-flow |
-| 3 | Conditionals Across Paradigms | Lab exercises |
-| 4 | Loops vs Recursion (introduction) | Lab exercises |
-| 5 | Review & Practice | Challenge exercises |
-
-**Project 1 Assigned:** Text Statistics Tool
-**Languages:** Python (50%), C++ (30%), Haskell (20%)
-
----
-
-### Week 3: Functions & Abstraction
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | **Lesson 4: Functions** | lessons/04-functions |
-| 2 | Parameters, Arguments, Scope | Lab exercises |
-| 3 | Pure Functions vs Side Effects | Haskell focus |
-| 4 | **Module: Git & Version Control** | modules/git-version-control |
-| 5 | Lab: Git Workflow Practice | Git exercises |
-
-**Project 1 Due**
-**Languages:** Python (40%), C++ (30%), Haskell (30%)
-
----
-
-### Week 4: Data Structures I
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | **Lesson 5: Data Structures** | lessons/05-data-structures |
-| 2 | Lists, Arrays, Vectors | Lab exercises |
-| 3 | Maps, Dictionaries, Hash Tables | Lab exercises |
-| 4 | Immutability vs Mutability | Paradigm comparison |
-| 5 | **Project 2 Assigned:** Number Guessing Game | projects/02-number-game |
-
-**Languages:** Balanced (Python 33%, C++ 33%, Haskell 33%)
-
----
-
-### Week 5: Recursion Deep Dive
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | **Lesson 6: Recursion** | lessons/06-recursion |
-| 2 | Base Cases & Recursive Steps | Lab exercises |
-| 3 | Tail Recursion & Optimization | Advanced topic |
-| 4 | Recursion vs Iteration | Paradigm comparison |
-| 5 | Review & Practice | Challenge exercises |
-
-**Project 2 Due**
-**Languages:** Balanced (emphasize Haskell for recursion)
-
----
-
-### Week 6: Object-Oriented Programming
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | **Lesson 7: Object-Oriented Programming** | lessons/07-oop |
-| 2 | Classes, Objects, Methods | C++ and Python focus |
-| 3 | Inheritance & Polymorphism | Lab exercises |
-| 4 | OOP vs Functional Approaches | Type classes in Haskell |
-| 5 | **Midterm Review** | All lessons 1-7 |
-
-**Midterm Exam (covers Lessons 1-7)**
-**Languages:** Python and C++ for OOP, Haskell for comparison
-
----
-
-### Week 7: Higher-Order Functions & Racket
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | **Lesson 8: Higher-Order Functions** | lessons/08-higher-order-functions |
-| 2 | Map, Filter, Reduce | Lab exercises |
-| 3 | **Racket Module Begins** | modules/racket-module |
-| 4 | Racket: S-expressions & Lists | Racket lab |
-| 5 | Racket: Functions & Recursion | Racket lab |
-
-**Project 3 Assigned:** Todo List Manager
-**Languages:** Core 3 + Racket introduction
-
----
-
-### Week 8: Pattern Matching & C
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | Racket: Higher-Order Functions | Racket exercises |
-| 2 | **Lesson 9: Pattern Matching** | lessons/09-pattern-matching |
-| 3 | Pattern Matching Deep Dive | Haskell focus |
-| 4 | **C Module Begins** | modules/c-module |
-| 5 | C: Pointers & Memory | C lab |
-
-**Project 3 Due**
-**Languages:** Core 3 + Racket + C
-
----
-
-### Week 9: Type Systems & Modern Systems Programming
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | C: Manual Memory Management | C exercises |
-| 2 | **Lesson 10: Type Systems** | lessons/10-type-systems |
-| 3 | Type Safety & Type Inference | Comparison lab |
-| 4 | **Rust Module Begins** | modules/rust-module |
-| 5 | Rust: Ownership & Borrowing | Rust lab |
-
-**Project 4 Assigned:** Expression Evaluator (Capstone Option)
-**Languages:** Core 3 + Rust
-
----
-
-### Week 10: Error Handling & Logic Programming
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | Rust: Safety Without Garbage Collection | Rust exercises |
-| 2 | **Lesson 11: Error Handling** | lessons/11-error-handling |
-| 3 | Exceptions vs Result Types | Comparison lab |
-| 4 | **Prolog Module Begins** | modules/prolog-module |
-| 5 | Prolog: Logic Programming | Prolog lab |
-
-**Choose:** Rust OR Prolog deep dive (student choice)
-**Languages:** Core 3 + chosen module language
-
----
-
-### Week 11: Algorithm Analysis
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | Prolog: Rules & Queries | Prolog exercises |
-| 2 | **Lesson 12: Algorithm Analysis** | lessons/12-algorithm-analysis |
-| 3 | Big-O Notation | Lab exercises |
-| 4 | Time vs Space Complexity | Comparison exercises |
-| 5 | **Module: Testing & Debugging** | modules/testing-debugging |
-
-**Project 4 Due**
-**Languages:** Core 3 (return to deep focus)
-
----
-
-### Week 12: Sorting & Searching
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | Testing Frameworks Setup | Testing lab |
-| 2 | **Lesson 13: Sorting & Searching** | lessons/13-sorting-searching |
-| 3 | Classic Sorting Algorithms | Lab implementations |
-| 4 | Search Algorithms | Lab implementations |
-| 5 | Algorithm Analysis Practice | Complexity analysis |
-
-**Project 5 Assigned:** Polyglot Build Tool (Capstone Option)
-**Languages:** Core 3
-
----
-
-### Week 13: Linear Data Structures
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | **Lesson 14: Stacks, Queues, Lists** | lessons/14-stacks-queues-lists |
-| 2 | Stack Implementations | Lab exercises |
-| 3 | Queue Implementations | Lab exercises |
-| 4 | Linked Lists | Lab exercises |
-| 5 | **Module: File I/O** | modules/file-io |
-
-**Project 5 Due**
-**Languages:** Core 3
-
----
-
-### Week 14: Trees & Graphs
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | **Lesson 15: Trees** | lessons/15-trees |
-| 2 | Binary Trees & BSTs | Lab exercises |
-| 3 | Tree Traversals | Lab exercises |
-| 4 | **Lesson 16: Graphs** | lessons/16-graphs |
-| 5 | Graph Representations | Lab exercises |
-
-**Final Project Assigned:** Mini Programming Language (Capstone)
-**Languages:** Core 3 + chosen minor language
-
----
-
-### Week 15: Capstone & Review
-| Day | Topic | Materials |
-|-----|-------|-----------|
-| 1 | Graph Algorithms | Lab exercises |
-| 2 | Final Project Work Time | Office hours available |
-| 3 | Final Project Work Time | Office hours available |
-| 4 | **Final Review** | All course material |
-| 5 | Course Reflection & Next Steps | Discussion |
-
-**Final Project Due (end of week)**
-
----
-
-### Finals Week
-| Day | Topic |
-|-----|-------|
-| TBD | **Final Exam** (2-3 hours, comprehensive) |
-
----
-
-## Assessment & Grading
-
-### Grade Breakdown
-
-| Component | Weight | Description |
-|-----------|--------|-------------|
-| **Exercises** | 20% | Weekly programming exercises in multiple languages |
-| **Projects** | 30% | 6 progressive projects (5% each) |
-| **Midterm Exam** | 15% | Conceptual understanding (Lessons 1-7) |
-| **Final Exam** | 20% | Comprehensive (all material) |
-| **Capstone Project** | 10% | Final project in minor language |
-| **Participation** | 5% | Lab attendance, discussions, reflections |
-
-### Grading Scale
-
-| Letter | Percentage | Description |
-|--------|------------|-------------|
-| A | 93-100% | Exceptional understanding across all languages |
-| A- | 90-92% | Strong proficiency in all three core languages |
-| B+ | 87-89% | Good understanding with minor gaps |
-| B | 83-86% | Solid proficiency in at least two languages |
-| B- | 80-82% | Adequate performance with some struggle |
-| C+ | 77-79% | Basic competency achieved |
-| C | 73-76% | Minimum acceptable performance |
-| C- | 70-72% | Marginal pass |
-| D | 60-69% | Below expectations |
-| F | <60% | Not passing |
-
-### Assessment Philosophy
-
-**Concepts Over Syntax**
-- Partial credit for demonstrating understanding even if code doesn't compile
-- Emphasis on explaining *why*, not just *how*
-- Language-agnostic questions on exams
-
-**Multi-Language Demonstration**
-- Must show competency in at least 2 of 3 core languages
-- Bonus credit for implementing exercises in all three languages
-- Capstone requires using a minor language
-
-**Process Over Product**
-- Version control usage is graded
-- Testing and debugging attempts valued
-- Iteration and improvement encouraged
-
----
-
-## Projects Overview
-
-### Project 1: Text Statistics Tool (Week 2-3)
-**Difficulty:** Easy-Medium | **Time:** 3-5 hours
-Build a command-line tool that analyzes text files, counting words, lines, characters, and finding the most common words.
-- **Skills:** File I/O, string processing, basic data structures
-- **Required:** Implement in Python OR C++
-- **Bonus:** Implement in multiple languages
-
-### Project 2: Number Guessing Game (Week 4-5)
-**Difficulty:** Easy-Medium | **Time:** 2-4 hours
-Create an interactive game where the computer picks a number and gives hints (too high/low).
-- **Skills:** Control flow, input/output, random numbers, loops
-- **Required:** Implement in any core language
-- **Bonus:** Add difficulty levels, track statistics
-
-### Project 3: Todo List Manager (Week 7-8)
-**Difficulty:** Medium | **Time:** 5-8 hours
-Build a persistent todo list application with add, complete, delete, and list operations.
-- **Skills:** Data structures, file persistence, user interface design
-- **Required:** Implement in any core language
-- **Capstone Option:** Implement in Racket
-
-### Project 4: Expression Evaluator (Week 9-10)
-**Difficulty:** Medium-Hard | **Time:** 6-10 hours
-Parse and evaluate mathematical expressions like "3 + 4 * 2" with proper operator precedence.
-- **Skills:** Parsing, recursion, tree structures, evaluation
-- **Required:** Implement in any core language
-- **Capstone Option:** Implement in Haskell (parser combinators)
-
-### Project 5: Polyglot Build Tool (Week 12-13)
-**Difficulty:** Hard | **Time:** 8-12 hours
-Create a simple build system that can compile/run programs in multiple languages based on file extensions.
-- **Skills:** Process execution, file system operations, configuration
-- **Required:** Implement in Python
-- **Capstone Option:** Compare implementations across languages
-
-### Project 6: Mini Programming Language (Week 14-15)
-**Difficulty:** Very Hard | **Time:** 15-20 hours
-Design and implement a simple programming language with variables, expressions, and control flow.
-- **Skills:** Lexing, parsing, interpretation, language design
-- **Required:** Implement in any core language
-- **Capstone Requirement:** Use a minor language OR write detailed paradigm comparison
 
 ---
 
 ## Course Policies
 
 ### Attendance
-- **Lectures:** Attendance expected but not mandatory. Material covered will be on exams.
-- **Labs:** Attendance highly recommended. Lab work counts toward participation.
-- **Remote Option:** If offered, synchronous participation expected.
+- **Class sessions:** Expected but not graded directly
+- **Labs:** Highly valuable for project help
+- **Presentations:** Required for project showcases
 
 ### Late Work
-- **Exercises:** 10% penalty per day, up to 3 days late. No credit after 3 days.
-- **Projects:** 10% penalty per day, up to 5 days late. No credit after 5 days.
-- **Extensions:** Available for documented emergencies. Contact instructor BEFORE deadline.
+Projects are due at project showcases. If you need more time:
+- **Request an extension** before the deadline
+- **Incomplete projects** can be presented with a plan for completion
+- **Late submissions** receive feedback but reduced credit
+
+We prefer you do great work over rushed work.
+
+### Collaboration
+- **Encouraged:** Discussing concepts, helping debug, code review
+- **Not allowed:** Copying code, having others write your code
+- **Cite everything:** If you use external resources, cite them
 
 ### Academic Integrity
-- **Individual Work:** Exercises and exams must be completed individually unless specified.
-- **Collaboration Allowed:** Discussion of concepts, debugging help, and study groups are encouraged.
-- **Prohibited:** Copying code, sharing solutions, using AI to generate solutions without understanding.
-- **Cite Everything:** If you reference external resources, cite them.
-
-**Violation Consequences:**
-- First offense: Zero on assignment + warning
-- Second offense: Failing grade in course
-- All violations reported to academic integrity office
-
-### Code of Conduct
-- Respect diverse backgrounds and learning speeds
-- Support fellow students; programming is hard for everyone at first
-- Ask questions—there are no stupid questions
-- Be patient with yourself and others
+- Your projects should be your own creative work
+- Using AI tools is allowed if you understand and can explain every line
+- Cite all resources, tutorials, and inspiration
 
 ---
 
-## Resources & Support
+## Getting Help
 
-### Getting Help
-1. **Office Hours:** First stop for conceptual questions
-2. **Lab TAs:** Best for debugging and syntax issues
-3. **Discussion Forum:** Peer help (encouraged!)
-4. **Documentation:** Language docs are your friend
-
-### Language Resources
-
-**Python:**
-- Official Docs: https://docs.python.org/3/
-- Tutorial: https://docs.python.org/3/tutorial/
-- Practice: https://www.hackerrank.com/domains/python
-
-**C++:**
-- Reference: https://en.cppreference.com/
-- Tutorial: https://learncpp.com/
-- Practice: https://www.hackerrank.com/domains/cpp
-
-**Haskell:**
-- Learn You a Haskell: http://learnyouahaskell.com/
-- Official Docs: https://www.haskell.org/documentation/
-- Practice: https://exercism.org/tracks/haskell
-
-### Accessibility
-Students with documented disabilities should contact the accessibility office and inform the instructor early in the semester. Accommodations will be made for exams, labs, and assignments as needed.
+1. **Office Hours** — For conceptual questions and project guidance
+2. **Lab Sessions** — For debugging and hands-on help
+3. **Peer Study Groups** — Learn together!
+4. **Online Resources** — Documentation, tutorials, forums
 
 ---
 
-## Frequently Asked Questions
+## The Journey Ahead
 
-**Q: Why three languages instead of one?**
-A: Learning multiple languages simultaneously builds deeper understanding. You'll see that concepts like "loops" and "functions" exist in all languages, just with different syntax. This makes you a better programmer in *any* language.
+By the end of three quarters, you'll have:
+- Built **9+ projects** that you're proud of
+- Achieved proficiency in **3 programming languages**
+- Gained literacy in **4 more languages**
+- Developed **creative problem-solving skills** that transfer everywhere
+- Joined a community of **makers and builders**
 
-**Q: Which language should I focus on if I'm struggling?**
-A: Start with Python—it's the most forgiving syntax. Once you're comfortable with a concept in Python, the C++ and Haskell versions will make more sense.
-
-**Q: I've never programmed before. Is this course too hard?**
-A: No! This course is designed for beginners. The multi-language approach actually helps beginners because you see the same concept multiple times in different forms.
-
-**Q: Will I be proficient in all seven languages by the end?**
-A: You'll be **proficient** in Python, C++, and Haskell. You'll be **literate** in Racket, C, Rust, and Prolog—meaning you can read and understand code, even if you're not fluent.
-
-**Q: What if I only want to learn one language (e.g., Python)?**
-A: This course may not be the best fit. However, the multi-language approach will make you a *much* stronger Python programmer because you'll understand what Python is doing "under the hood" compared to other languages.
-
-**Q: How much time should I spend outside of class?**
-A: Expect 6-10 hours per week of work outside class (exercises, projects, studying). More at the beginning as you set up environments, less as you become comfortable.
+**Let's create something amazing together.**
 
 ---
 
-## Acknowledgments
+## Quick Reference: All Projects
 
-This curriculum draws on decades of computer science pedagogy research, particularly the principles of:
-- **Constructivism:** Learning by doing
-- **Comparative Learning:** Understanding through contrast
-- **Spiral Curriculum:** Revisiting concepts with increasing depth
-- **Multiple Representations:** Seeing ideas from different angles
-
----
-
-## Schedule Summary
-
-| Week | Lessons | Module | Project |
-|------|---------|--------|---------|
-| 1 | Hello World, Variables & Types | Computational Thinking | - |
-| 2 | Control Flow | - | P1 Assigned |
-| 3 | Functions | Git & Version Control | P1 Due |
-| 4 | Data Structures | - | P2 Assigned |
-| 5 | Recursion | - | P2 Due |
-| 6 | Object-Oriented Programming | - | **Midterm** |
-| 7 | Higher-Order Functions | Racket | P3 Assigned |
-| 8 | Pattern Matching | C | P3 Due |
-| 9 | Type Systems | Rust | P4 Assigned |
-| 10 | Error Handling | Prolog | - |
-| 11 | Algorithm Analysis | Testing & Debugging | P4 Due |
-| 12 | Sorting & Searching | - | P5 Assigned |
-| 13 | Stacks, Queues, Lists | File I/O | P5 Due |
-| 14 | Trees, Graphs | - | P6 Assigned |
-| 15 | Capstone Work | - | P6 Due |
-| Final | - | - | **Final Exam** |
+| Quarter | Project | Theme |
+|---------|---------|-------|
+| Q1 | Personal Dashboard | Making it yours |
+| Q1 | Data Explorer | Understanding information |
+| Q1 | Interactive Story/Game | Engaging users |
+| Q2 | Simulation | Modeling the world |
+| Q2 | Language Tool | Working with text |
+| Q2 | Creative Tool | Enabling creation |
+| Q3 | Efficient System | Making it fast |
+| Q3 | Data Structure App | Complex organization |
+| Q3 | **Capstone** | Your vision |
 
 ---
 
-**Welcome to CS 101! Let's learn to think like computer scientists.**
+**Welcome to the journey. Let's build!**
