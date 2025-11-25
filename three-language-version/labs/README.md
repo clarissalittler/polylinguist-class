@@ -76,16 +76,24 @@ Each lab includes:
 
 - [Lab 12: Design Pattern Practice](lab-12-design-pattern-practice.md) - Factory, Strategy, Observer patterns
 - [Lab 13: Pattern Matching Dojo](lab-13-pattern-matching-dojo.md) - Haskell patterns and destructuring
-- Lab 14: Type Design - *Coming soon*
+- [Lab 14: Type Design](lab-14-type-design.md) - Generics, custom types, type safety
 - [Lab 15: Error Handling](lab-15-error-handling.md) - Exceptions, Maybe, Either
-- Lab 16-18: *Coming soon*
+- [Lab 16: Project Showcase Q2](lab-16-project-showcase-q2.md) - Present and review projects
+- [Lab 17: Functional Refactoring](lab-17-functional-refactoring.md) - Convert imperative to functional
+- [Lab 18: Thinking in Lisp](lab-18-thinking-in-lisp.md) - Racket/Lisp exploration
 - [Lab 19: Git Collaboration](lab-19-git-collaboration.md) - Team workflows
-- Lab 20-21: *Coming soon*
+- [Lab 20: Design Workshop](lab-20-design-workshop.md) - System design
+- [Lab 21: Quarter 2 Showcase](lab-21-quarter2-showcase.md) - Present projects
 
 ### Quarter 3: Applications
 
-- Lab 21: Complexity Detective - *Coming soon*
 - [Lab 22: Sort Race](lab-22-sort-race.md) - Implement and benchmark sorts
-- Lab 23: Data Structure Implementation - *Coming soon*
+- [Lab 23: Data Structure Implementation](lab-23-data-structure-implementation.md) - Build stacks and queues
 - [Lab 24: Tree Building](lab-24-tree-building.md) - Implement BST
-- Lab 25-33: *Coming soon*
+- [Lab 25: Graph Exploration](lab-25-graph-exploration.md) - Build and traverse graphs
+- [Lab 26: Problem Solving Workshop](lab-26-problem-solving-workshop.md) - Dynamic programming
+- [Lab 27: Logic Programming](lab-27-logic-programming.md) - Prolog exploration
+- [Lab 28: Rust Programming](lab-28-rust-programming.md) - Ownership and safety
+- [Lab 29: Capstone Planning](lab-29-capstone-planning.md) - Proposal workshop
+- [Lab 30: Work Time](lab-30-work-time.md) - Independent project time
+- [Lab 31: Final Showcase](lab-31-final-showcase.md) - Capstone presentations
