@@ -41,21 +41,21 @@ You'll work with these three languages in nearly every lesson:
 
 ### Minor Languages (Focused Modules)
 
-You'll study these languages in 1-3 week modules later in the course:
+You'll study these languages in focused modules throughout the year:
 
-#### 4. **Racket** (Week 7-8)
+#### 4. **Racket** (Quarter 1 & 2)
 - **Focus**: Lisp/Scheme philosophy, macros, language-oriented programming
 - **Unique**: Code as data, S-expressions, homoiconicity
 
-#### 5. **C** (Week 8)
+#### 5. **C** (Quarter 1, Week 10)
 - **Focus**: Low-level systems, manual memory management
 - **Unique**: What C++ abstracts away, pointers, direct hardware control
 
-#### 6. **Rust** (Week 9-10)
+#### 6. **Rust** (Quarter 2, Week 8)
 - **Focus**: Modern systems programming with safety
 - **Unique**: Ownership model, zero-cost abstractions
 
-#### 7. **Prolog** (Week 9-10)
+#### 7. **Prolog** (Quarter 3, Week 8)
 - **Focus**: Logic programming, declarative thinking
 - **Unique**: Completely different computational model
 
@@ -154,14 +154,18 @@ Choose one:
 
 ## Course Structure
 
+This is a **three-quarter, project-based course** spanning 33 weeks total.
+
 ```
 three-language-version/
 ├── README.md                # Course overview
+├── SYLLABUS.md              # Detailed 33-week syllabus
 ├── GETTING_STARTED.md       # This file
 ├── INSTRUCTOR_GUIDE.md      # Teaching strategies (for instructors)
 ├── lessons/                 # Core lessons (16 total)
 │   ├── 01-hello-world/
 │   │   ├── README.md       # Lesson content
+│   │   ├── EXERCISES.md    # Practice exercises
 │   │   ├── hello.py        # Python example
 │   │   ├── hello.cpp       # C++ example
 │   │   └── hello.hs        # Haskell example
@@ -172,16 +176,31 @@ three-language-version/
 │   ├── file-io/
 │   ├── git-version-control/
 │   ├── testing-debugging/
-│   ├── racket-module/      # Week 7-8
-│   ├── c-module/           # Week 8
-│   ├── rust-module/        # Week 9-10
-│   └── prolog-module/      # Week 9-10
-├── projects/               # 6 progressive projects
-│   ├── 01-text-stats/
-│   ├── 02-number-game/
-│   └── ... (including capstone options)
+│   ├── racket-module/      # Quarter 1-2
+│   ├── c-module/           # Quarter 1
+│   ├── rust-module/        # Quarter 2
+│   └── prolog-module/      # Quarter 3
+├── projects/               # 9 creative projects + capstone
+│   ├── 01-personal-dashboard/
+│   ├── 02-data-explorer/
+│   ├── 03-interactive-story-game/
+│   ├── 04-simulation/
+│   ├── 05-language-tool/
+│   ├── 06-creative-tool/
+│   ├── 07-efficient-system/
+│   ├── 08-data-structure-app/
+│   ├── 09-capstone/
+│   └── REFLECTION_TEMPLATE.md
 └── solutions/              # Reference implementations
 ```
+
+### The Quarters
+
+| Quarter | Focus | Projects |
+|---------|-------|----------|
+| **Q1: Foundations** (11 weeks) | Core language skills, basic data structures | 3 projects |
+| **Q2: Paradigms** (11 weeks) | OOP, functional programming, design patterns | 3 projects |
+| **Q3: Applications** (11 weeks) | Algorithms, advanced data structures, capstone | 3 projects + capstone |
 
 ## How to Use This Course
 
@@ -417,10 +436,11 @@ Every difference reveals design philosophy.
 
 ### "This seems like a lot!"
 
-**It is ambitious**, but we've structured it carefully:
-- Weeks 1-3: Heavy on Python (build confidence)
-- Weeks 4-6: Balanced across all three
-- Weeks 7-10: Add minor languages gradually
+**It is ambitious**, but we've structured it carefully across 33 weeks (three quarters):
+
+- **Quarter 1**: Build confidence with core languages and first 3 projects
+- **Quarter 2**: Deepen understanding with paradigms and 3 more projects
+- **Quarter 3**: Apply everything with algorithms and your capstone
 
 **You're not expected to master all 7 languages**. You're expected to:
 - Be **proficient** in Python, C++, Haskell
@@ -430,27 +450,27 @@ Every difference reveals design philosophy.
 
 You'll install these later when the modules arrive:
 
-### Racket (Week 7)
+### Racket (Quarter 1-2)
 ```bash
 # Install from https://racket-lang.org/
 # Or: brew install racket (macOS)
 racket --version
 ```
 
-### C (Week 8)
+### C (Quarter 1, Week 10)
 ```bash
 # Usually installed with C++ compiler
 gcc --version
 ```
 
-### Rust (Week 9)
+### Rust (Quarter 2, Week 8)
 ```bash
 # Install Rustup: https://rustup.rs/
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustc --version
 ```
 
-### Prolog (Week 10)
+### Prolog (Quarter 3, Week 8)
 ```bash
 # Install SWI-Prolog: https://www.swi-prolog.org/
 swipl --version
@@ -514,13 +534,22 @@ When stuck:
 
 ## A Note on Difficulty
 
-**Week 1-2**: Should feel manageable (mostly Python)
-**Week 3-4**: Getting challenging (all three languages active)
-**Week 5-6**: Peak difficulty (paradigm contrasts)
-**Week 7-8**: Adding breadth (minor languages)
-**Week 9-10**: Integration and synthesis
+### Quarter 1 (Foundations)
+- **Weeks 1-3**: Should feel manageable - learning the basics
+- **Weeks 4-6**: Getting interesting - functions and data structures
+- **Weeks 7-11**: First project showcase - you'll surprise yourself!
 
-**This is intentional**. The curve is designed to build confidence before challenging you.
+### Quarter 2 (Paradigms)
+- **Weeks 1-4**: OOP and classes - connecting the dots
+- **Weeks 5-8**: Functional programming - mind-expanding!
+- **Weeks 9-11**: Pattern matching and design - seeing the bigger picture
+
+### Quarter 3 (Applications)
+- **Weeks 1-4**: Algorithms - making things fast
+- **Weeks 5-8**: Data structures - building your toolkit
+- **Weeks 9-11**: Capstone - show what you've learned!
+
+**This is intentional**. The curve is designed to build confidence while continuously challenging you.
 
 ## The Big Picture
 
