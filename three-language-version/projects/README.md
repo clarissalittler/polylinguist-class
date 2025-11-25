@@ -1,89 +1,173 @@
 # Projects
 
-This directory contains 6 progressive projects designed to apply and reinforce the concepts learned throughout the course. Projects increase in difficulty and scope, culminating in capstone-level challenges.
+This directory contains 9 creative projects plus a capstone, designed to let you build things you care about while learning programming concepts across multiple languages and paradigms.
 
-## Project Overview
+## Philosophy: Build Things You're Proud Of
 
-| # | Project | Difficulty | Time | Skills | Week |
-|---|---------|------------|------|--------|------|
-| 1 | Text Statistics Tool | Easy-Medium | 3-5 hrs | File I/O, strings, data structures | 2-3 |
-| 2 | Number Guessing Game | Easy-Medium | 2-4 hrs | Control flow, I/O, random numbers | 4-5 |
-| 3 | Todo List Manager | Medium | 5-8 hrs | Data structures, file persistence | 7-8 |
-| 4 | Expression Evaluator | Medium-Hard | 6-10 hrs | Parsing, recursion, trees | 9-10 |
-| 5 | Polyglot Build Tool | Hard | 8-12 hrs | Process execution, file systems | 12-13 |
-| 6 | Mini Programming Language | Very Hard | 15-20 hrs | Lexing, parsing, interpretation | 14-15 |
+These aren't traditional assignments with rigid specifications. Each project has:
+- **Base requirements** that define the minimum scope
+- **Creative extensions** that push you further
+- **Room for personalization** to make it yours
 
-## Project Philosophy
-
-### Multi-Language Approach
-
-Each project can be implemented in any of the three core languages (Python, C++, Haskell). Students are encouraged to:
-
-1. **Start with their strongest language** - Build confidence and understanding
-2. **Try a second language** - Deepen learning through comparison
-3. **Reflect on differences** - What was easier/harder in each language?
-
-### Capstone Options
-
-Projects 3-6 can serve as **capstone projects** when implemented in a minor language (Racket, C, Rust, or Prolog). Capstones require:
-- Implementation in a minor language
-- Written reflection on paradigm differences
-- Comparison with core language approaches
-
-### Assessment Criteria
-
-All projects are assessed on:
-- **Correctness (40%)** - Does it work as specified?
-- **Design (25%)** - Is the code well-organized?
-- **Documentation (15%)** - Are functions/decisions explained?
-- **Testing (10%)** - Are edge cases handled?
-- **Process (10%)** - Was version control used properly?
-
-## Getting Started
-
-Each project directory contains:
-- `README.md` - Full specification and requirements
-- `STARTER.md` - Hints and starting points (optional)
-- Example input/output files (where applicable)
-
-## Submission Guidelines
-
-1. Create a git branch for your project: `git checkout -b project-N-yourname`
-2. Implement the project in your chosen language(s)
-3. Include a `REFLECTION.md` answering the reflection questions
-4. Commit regularly with meaningful messages
-5. Submit via pull request or as directed by instructor
-
-## Language Recommendations
-
-| Project | Recommended Language | Why |
-|---------|---------------------|-----|
-| Text Stats | Python | Excellent string handling |
-| Number Game | Any | All work well |
-| Todo List | Python or Haskell | File handling differences interesting |
-| Expression Eval | Haskell | Parser combinators shine |
-| Build Tool | Python | Process handling easiest |
-| Mini Language | Any | Deep learning in any language |
-
-These are recommendations, not requirements. Choose based on learning goals.
+**The highest grades go to students who take creative risks**, not those who play it safe. A partially-working ambitious project shows more growth than a perfect but boring one.
 
 ---
 
-## Project Timeline (15-Week Course)
+## Project Overview by Quarter
 
+### Quarter 1: Foundations
+*Focus: Core language skills, basic data structures, creative expression*
+
+| # | Project | Theme | Key Skills |
+|---|---------|-------|------------|
+| 1 | Personal Dashboard | Make something useful for YOU | Variables, I/O, control flow |
+| 2 | Data Explorer | Find insights in data | Data structures, file I/O, functions |
+| 3 | Interactive Story/Game | Create an experience | State management, recursion, design |
+
+### Quarter 2: Paradigms
+*Focus: OOP, functional programming, multiple paradigms*
+
+| # | Project | Theme | Key Skills |
+|---|---------|-------|------------|
+| 4 | Simulation | Model a world | OOP, state over time, design patterns |
+| 5 | Language Tool | Work with text | String processing, pattern matching, parsing |
+| 6 | Creative Tool | Enable creativity | Full application design, user experience |
+
+### Quarter 3: Applications
+*Focus: Algorithms, data structures, integration*
+
+| # | Project | Theme | Key Skills |
+|---|---------|-------|------------|
+| 7 | Efficient System | Make it fast | Algorithm analysis, optimization |
+| 8 | Data Structure App | Showcase a structure | Trees, graphs, ADT implementation |
+| 9 | **Capstone** | Your vision | Everything you've learned |
+
+---
+
+## Assessment: The Five Dimensions
+
+Every project is graded on:
+
+| Dimension | Weight | What We're Looking For |
+|-----------|--------|----------------------|
+| **Creativity & Ambition** | 25% | Did you push yourself? Make it personal? |
+| **Functionality** | 25% | Does it work? |
+| **Code Quality** | 20% | Is it readable and well-organized? |
+| **Process & Iteration** | 15% | Regular commits? Evidence of iteration? |
+| **Reflection** | 15% | Can you articulate what you learned? |
+
+### The Base + Extensions Model
+
+- **Base requirement** = B-level work
+- **Base + listed extensions** = A-level work
+- **Base + your OWN creative ideas** = A+ potential
+
+We want to see what YOU think would make the project better, not just what we listed.
+
+---
+
+## Project Structure
+
+Each project directory contains:
 ```
-Week 2:  Project 1 assigned
-Week 3:  Project 1 due
-Week 4:  Project 2 assigned
-Week 5:  Project 2 due
-Week 7:  Project 3 assigned
-Week 8:  Project 3 due
-Week 9:  Project 4 assigned
-Week 11: Project 4 due
-Week 12: Project 5 assigned
-Week 13: Project 5 due
-Week 14: Project 6 (Capstone) assigned
-Week 15: Project 6 due
+project-name/
+├── README.md          # Full specification
+├── REFLECTION.md      # Template for your reflection (copy and fill in)
+├── starter/           # Optional starter code (if provided)
+└── samples/           # Sample data or examples (if applicable)
 ```
 
-Adjust timing based on your course schedule.
+## Submission Requirements
+
+Every project submission needs:
+
+1. **Working code** in your chosen language(s)
+2. **README or comments** explaining how to run it
+3. **REFLECTION.md** answering the reflection questions
+4. **Git history** showing your development process
+5. **Presentation** at the showcase (5-7 minutes)
+
+---
+
+## Language Choice
+
+You can implement projects in any of the core languages (Python, C++, Haskell). Consider:
+
+| If you want to... | Consider... |
+|-------------------|-------------|
+| Get it working quickly | Python |
+| Practice OOP deeply | C++ or Python |
+| Think functionally | Haskell |
+| Challenge yourself | Your weakest language |
+| Show off | Multiple languages |
+
+**Bonus opportunity**: Implementing in multiple languages or a minor language (Racket, C, Rust, Prolog) can earn extra credit and deeper learning.
+
+---
+
+## Project Timeline
+
+### Quarter 1 (11 weeks)
+```
+Week 2:   Project 1 assigned (Personal Dashboard)
+Week 4:   Project 1 due + showcase
+Week 5:   Project 2 assigned (Data Explorer)
+Week 7:   Project 2 due + showcase
+Week 8:   Project 3 assigned (Interactive Story/Game)
+Week 11:  Project 3 due + Q1 showcase
+```
+
+### Quarter 2 (11 weeks)
+```
+Week 2:   Project 4 assigned (Simulation)
+Week 4:   Project 4 due + showcase
+Week 5:   Project 5 assigned (Language Tool)
+Week 7:   Project 5 due + showcase
+Week 8:   Project 6 assigned (Creative Tool)
+Week 11:  Project 6 due + Q2 showcase
+```
+
+### Quarter 3 (11 weeks)
+```
+Week 2:   Project 7 assigned (Efficient System)
+Week 4:   Project 7 due + showcase
+Week 5:   Project 8 assigned (Data Structure App)
+Week 7:   Project 8 due + showcase
+Week 8:   Capstone assigned
+Week 11:  Capstone due + final showcase
+```
+
+---
+
+## Tips for Success
+
+### Start Early
+Projects take longer than you think. Start the day it's assigned.
+
+### Make It Personal
+The more you care about what you're building, the better it will be.
+
+### Iterate
+Your first version won't be your best. Build, test, improve, repeat.
+
+### Ask for Help
+Stuck? Ask early. We'd rather help you succeed than watch you struggle in silence.
+
+### Document As You Go
+Don't leave reflection until the last minute. Keep notes on what you learn.
+
+### Take Risks
+Try something that might not work. You'll learn more from ambitious failures than safe successes.
+
+---
+
+## Archive
+
+The `archive/` folder contains alternative project specifications from earlier versions of the course. These can be used as:
+- Additional practice problems
+- Alternative projects (with instructor approval)
+- Examples of more structured specifications
+
+---
+
+**Ready to build something?** Pick your project and get started!
