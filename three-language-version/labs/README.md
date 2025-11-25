@@ -58,8 +58,34 @@ Each lab includes:
 
 ## Available Labs
 
-- [Lab 1: Environment Setup Party](lab-01-environment-setup.md)
-- [Lab 2: Type Detective](lab-02-type-detective.md)
-- [Lab 3: Control Flow Adventure](lab-03-control-flow-adventure.md)
+### Quarter 1: Foundations
 
-*More labs coming soon...*
+- [Lab 1: Environment Setup Party](lab-01-environment-setup.md) - Install and verify all tools
+- [Lab 2: Type Detective](lab-02-type-detective.md) - Explore types across languages
+- [Lab 3: Control Flow Adventure](lab-03-control-flow-adventure.md) - Build a text-based game
+- [Lab 4: Function Factory](lab-04-function-factory.md) - Write and compose functions
+- [Lab 5: Data Wrangling](lab-05-data-wrangling.md) - Work with collections
+- [Lab 6: Recursive Thinking](lab-06-recursive-thinking.md) - Trace and write recursive code
+- [Lab 7: Project Showcase](lab-07-project-showcase.md) - Present and review projects
+- [Lab 8: OOP Design Workshop](lab-08-oop-design-workshop.md) - Design class hierarchies
+- [Lab 9: Functional Transformation](lab-09-functional-transformation.md) - Map, filter, reduce
+- [Lab 10: Test-First Development](lab-10-test-first-development.md) - Write tests, then code
+- [Lab 11: Quarter 1 Showcase](lab-11-quarter1-showcase.md) - Present projects
+
+### Quarter 2: Paradigms
+
+- [Lab 12: Design Pattern Practice](lab-12-design-pattern-practice.md) - Factory, Strategy, Observer patterns
+- [Lab 13: Pattern Matching Dojo](lab-13-pattern-matching-dojo.md) - Haskell patterns and destructuring
+- Lab 14: Type Design - *Coming soon*
+- [Lab 15: Error Handling](lab-15-error-handling.md) - Exceptions, Maybe, Either
+- Lab 16-18: *Coming soon*
+- [Lab 19: Git Collaboration](lab-19-git-collaboration.md) - Team workflows
+- Lab 20-21: *Coming soon*
+
+### Quarter 3: Applications
+
+- Lab 21: Complexity Detective - *Coming soon*
+- [Lab 22: Sort Race](lab-22-sort-race.md) - Implement and benchmark sorts
+- Lab 23: Data Structure Implementation - *Coming soon*
+- [Lab 24: Tree Building](lab-24-tree-building.md) - Implement BST
+- Lab 25-33: *Coming soon*
